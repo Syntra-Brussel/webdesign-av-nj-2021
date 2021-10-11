@@ -30,7 +30,7 @@ We werken niet met boeken maar er zijn wel heel zeer gedetailleerde online bronn
 <li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started</a></li>
 </ul>
 
-<pre data-enlighter-language="less">
+<pre data-enlighter-language="html">
 &lt;h1&gt;Dit ise en titel&lt;/h1&gt;
 &lt;p&gt;Dit is een paragraaf&lt;/p&gt;
 &lt;a&gt;Dit is een link&lt;/a&gt;
