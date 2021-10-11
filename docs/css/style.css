@@ -29,6 +29,10 @@ h2 {
     color: #930201;
 }
 
+img {
+    max-width: 100%;
+}
+
 quote {
     max-width: 20em;
     padding: 1em;
