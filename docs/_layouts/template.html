@@ -29,7 +29,7 @@
                                 <ul>
                                 {% for topic in item.topics %}
                                     {% assign topic_url = topic.url | append: '.html' %}
-                                    {% if page.url == topic.url %}
+                                    {% if page.url == topic_url %}
                                         <li class="active"><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>
                                     {% else %} 
                                         <li><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>

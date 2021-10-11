@@ -4,3 +4,5 @@ title: Conflicten
 url: /git/conflicten
 navigation: git
 ---
+
+## GIT conflicten
