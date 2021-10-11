@@ -19,7 +19,7 @@ p, quote {
 quote {
     max-width: 20em;
     padding: 1em;
-    font: 3rem/2.6;
+    font-size: 3rem/2.6!important;
     border-left: #C0C0C0 1px solid!important;
     display: block;
 }
