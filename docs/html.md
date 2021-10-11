@@ -17,7 +17,7 @@ De webtechnologie heeft enkele voordelen:
 </ul>
 
 <quote>
-Hyper Text Markup Language
+<strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage
 </quote>
 
 Bij een web toepassing is HTML de taal om de opmaak van een applicatie te maken. Het is geen programmeertaal maar een opmaaktaal gebaseerd op tekst.
