@@ -7,9 +7,8 @@ collection: html
 
 ## Introductie
 
+### Hyper Text Markup Language
 <div class="highlight">
-<strong>HTML:</strong>
-
 <ul>
     <li>staat voor Hyper Text Markup Language</li>
     <li>beschrijft de structuur van een webpagina</li>
