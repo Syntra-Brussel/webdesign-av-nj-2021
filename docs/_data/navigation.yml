@@ -16,3 +16,12 @@ items:
   - id: html
     url: /html
     title: 'HTML'
+    topics:
+      - url: /html/introductie
+        title: Introductie
+      - url: /html/elementen
+        title: Elementen
+      - url: /html/samenvatting
+        title: Samenvatting
+      - url: /html/extra_oefening
+        title: Extra oefening
