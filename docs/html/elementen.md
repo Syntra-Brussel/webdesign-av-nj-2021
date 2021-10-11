@@ -7,7 +7,7 @@ collection: [html, elementen]
 
 ## Elementen
 
-###Een html-element
+### Een html-element
 <div class="hightligt">
     <ul>
         <li>geeft context aan inhoud</li>
