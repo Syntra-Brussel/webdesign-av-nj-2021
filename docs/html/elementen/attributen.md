@@ -9,7 +9,7 @@ collection: [html, elementen]
 
 Elementen hebben doorgaans attributen om extra eigenschappen aan het element toe te voegen:
 
-Een attribuut bestaat uit een <span style="color: green">&lt;naam&gt;</span>, een <span style="color: red">&lt;=&gt;</span> en vervolgens een <span style="color: blue">&lt;waarde&gt;</span> tussen dubbele quotes.
+Een attribuut bestaat uit een <span style="color: green">naam</span>, een <span style="color: red">=</span> en vervolgens een <span style="color: blue">waarde</span> tussen dubbele quotes.
 
 <img src="{{ '/html/elementen/images/attributen_1.png' | relative_url}}" />
 
