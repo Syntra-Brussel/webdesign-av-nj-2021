@@ -24,5 +24,10 @@ footer {
 }
 
 .logo {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.logo img {
     width: 80%;
 }

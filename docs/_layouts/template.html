@@ -14,18 +14,20 @@
     <div class="container-fluid">
     <div class="row content">
         <div class="col-sm-2 sidenav">
-        <a href="index"><img class="logo" src="{{ '/images/logo.png' | relative_url}}" /></a>
-        <ul class="nav nav-pills nav-stacked">
-            {% for node in site.pages %}
-              {% if node.filename != "index" %}
-                {% if page.filename == node.filename %}
-                  <li class="active"><a href="{{ node.filename }}">{{ node.title }}</a></li>
-                {% else %}
-                  <li><a href="{{ node.filename }}">{{ node.title }}</a></li>
-                {% endif %}
-              {% endif %}
-            {% endfor %}  
-        </ul>
+            <div class="logo">
+                <a href="index"><img class="logo" src="{{ '/images/logo.png' | relative_url}}" /></a>
+            </div>
+            <ul class="nav nav-pills nav-stacked">
+                {% for node in site.pages %}
+                    {% if node.filename != "index" %}
+                        {% if page.filename == node.filename %}
+                        <li class="active"><a href="{{ node.filename }}">{{ node.title }}</a></li>
+                        {% else %}
+                        <li><a href="{{ node.filename }}">{{ node.title }}</a></li>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}  
+            </ul>
         </div>
 
         <div class="col-sm-10">
