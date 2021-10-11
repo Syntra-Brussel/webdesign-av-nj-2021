@@ -5,4 +5,4 @@ url: /git/stappen
 navigation: git
 ---
 
-# De stappen in het GIT proces
+## De stappen in het GIT proces

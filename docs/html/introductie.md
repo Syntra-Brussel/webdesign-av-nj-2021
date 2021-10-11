@@ -1,8 +1,8 @@
 ---
 layout: template
-title: Conflicten
-url: /git/conflicten
-navigation: git
+title: Introductie
+url: /html/introductie
+navigation: html
 ---
 
-## GIT conflicten
+## Introductie
