@@ -6,6 +6,11 @@ a:hover {
     color: #FF3521!important;
 }
 
+a[target="_blank"]:after {
+    font-family: 'FontAwesome';
+    content: " \f08e";
+}
+
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
 .row.content {height: 1500px}
 
