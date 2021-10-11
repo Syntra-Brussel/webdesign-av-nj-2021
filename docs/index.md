@@ -1,5 +1,7 @@
 ## Welcome to GitHub Pages
 
+<a href="html.html">HTML</a>
+
 You can use the [editor on GitHub](https://github.com/Syntra-Brussel/webdesign-av-nj-2021/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
