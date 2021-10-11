@@ -1,7 +1,7 @@
 ---
 layout: template
 title: GIT
-filename: git
+url: /git
 navigation: git
 ---
 

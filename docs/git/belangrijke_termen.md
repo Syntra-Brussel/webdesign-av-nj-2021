@@ -1,7 +1,7 @@
 ---
 layout: template
 title: Belangrijkste termen
-filename: git/belangrijkste_termen
+url: /git/belangrijkste_termen
 navigation: git
 ---
 

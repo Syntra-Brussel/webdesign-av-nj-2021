@@ -11,40 +11,27 @@
 </head>
 <body>
 
-{{ site.data.navigation.items }}
-
     <div class="container-fluid">
-    <div class="row content">
-        <div class="col-sm-2 sidenav">
-            <div class="logo">
-                <a href="index"><img src="{{ '/images/logo.png?v=1' | relative_url}}" /></a>
-            </div>
-            <ul class="nav nav-pills nav-stacked">
-                {% for item in site.data.navigation.items %}
-                    {% if page.filename == item.filename %}
-                        <li class="active"><a href="{{ item.filename }}">{{ item.title }}</a></li>
-                    {% else %}
-                        <li><a href="{{ item.filename }}">{{ item.title }}</a></li>
-                    {% endif %}
-                {% endfor %}
-                {#
-                {% for node in site.pages %}
-                    {% if node.filename != "index" %}
-                        {% if page.filename == node.filename %}
-                        <li class="active"><a href="{{ node.filename }}">{{ node.title }}</a></li>
+        <div class="row content">
+            <div class="col-sm-2 sidenav">
+                <div class="logo">
+                    <a href="index"><img src="{{ '/images/logo.png?v=1' | relative_url}}" /></a>
+                </div>
+                <ul class="nav nav-pills nav-stacked">
+                    {% for item in site.data.navigation.items %}
+                        {% if page.url == item.url %}
+                            <li class="active"><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
                         {% else %}
-                        <li><a href="{{ node.filename }}">{{ node.title }}</a></li>
+                            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
                         {% endif %}
-                    {% endif %}
-                {% endfor %}  
-                #}
-            </ul>
-        </div>
+                    {% endfor %}            
+                </ul>
+            </div>
 
-        <div class="col-sm-10">
-            {{ content }}
+            <div class="col-sm-10">
+                {{ content }}
+            </div>
         </div>
-    </div>
     </div>
 
     <footer class="container-fluid">

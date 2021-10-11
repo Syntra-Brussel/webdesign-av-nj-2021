@@ -1,6 +1,6 @@
 ---
 layout: template
 title: Conflicten
-filename: git/conflicten
+url: /git/conflicten
 navigation: git
 ---

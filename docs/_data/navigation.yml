@@ -1,14 +1,16 @@
 items:
-  - filename: git
+  - url: /git
     title: 'GIT'
     topics:
-      - filename: git/installeren
+      - url: /git/installeren
         title: 'GIT installeren'
-      - filename: git/belangrijkste_termen
+      - url: /git/belangrijkste_termen
         title: 'Belangrijke termen'
-      - filename: git/werken_met_repository     
+      - url: /git/werken_met_repository     
         title: 'Werken met een repository'
-      - filename: git/stappen
+      - url: /git/stappen
         title: 'De stappen in het GIT proces'
-      - filename: git/conflicten
+      - url: /git/conflicten
         title: 'Conflicten'
+  - url: /html
+    title: 'HTML'

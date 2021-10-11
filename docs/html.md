@@ -1,7 +1,7 @@
 ---
 layout: template
 title: HTML
-filename: html
+url: /html
 ---
 
 # HTML: Hyper Text Markup Language
