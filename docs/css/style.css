@@ -22,8 +22,9 @@ p, quote, ul, .enlighter-default {
 
 h2, h3 {
     margin-bottom: 1.5rem;
+    margin-top: 3rem;
 }
-
+ 
 h2 {
     color: #930201;
 }
