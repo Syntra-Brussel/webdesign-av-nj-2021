@@ -51,7 +51,7 @@ week
 <pre data-enlighter-language="html">
 &lt;input name=&quot;voornam&quot; type=&quot;text&quot;&gt;
 </pre>
-Het name attribuut is verplicht bij een input element
+Het <code>name<./code> attribuut is verplicht bij een <code>&lt;input&gt;</code> element
 
 #### De selectielijst
 <pre data-enlighter-language="html">
@@ -62,12 +62,12 @@ Het name attribuut is verplicht bij een input element
   &lt;option value=&quot;audi&quot;&gt;Audi&lt;/option&gt; 
 &lt;/select&gt;
 </pre>
-Waneer meer dan 1 optie geselecteerd mag worden krijgt het <select> element een attribuut multiple.
-De optie die geselecteerd wordt krijgt het attribuut selected
-Een name attribuut is verplicht bij een select element
+Waneer meer dan 1 optie geselecteerd mag worden krijgt het <code>&lt;select&gt;</code> element een attribuut <code>multiple</code>.
+De optie die geselecteerd wordt krijgt het attribuut <code>selected</code>
+Een <code>name</code> attribuut is verplicht bij een <code>&lt;select&gt;</code> element
 
 #### Selectie rondje (radio)
-Er is maar één optie mogelijk.
+Er is maar één keuze mogelijk.
 
 <pre data-enlighter-language="html">
 &lt;input type=&quot;radio&quot; id=&quot;optie_1&quot; name=&quot;optie&quot; value=&quot;Optie 1&quot;&gt; 
@@ -78,10 +78,10 @@ Er is maar één optie mogelijk.
 &lt;label for=&quot;optie_3&quot;&gt;Dit is optie 3&lt;/label&gt;
 </pre>
 
-Elke optie krijgt dezelfde naam via het name attribuut
-De waarde die wordt verstuurd staat in het value attribuut van elke optie
-De id van de optie is belangrijk om het label via het for attribuut te koppelen
-De optie die al geselecteerd wordt bij het laden krijgt het attribuut checked mee
+Elk keuze rondje krijgt dezelfde naam via het <code>name</code> attribuut
+De waarde die wordt verstuurd staat in het <code>value</code> attribuut van elk keuze rondje
+De <code>id</code> van de optie is belangrijk om het label via het <code>for</code> attribuut te koppelen
+De optie die al geselecteerd wordt bij het laden krijgt het attribuut <code>checked</code> mee
 <input type="radio" checked />
 
 #### Selectie vakje (checkbox)
@@ -96,10 +96,10 @@ Er zijn meerdere opties mogelijk.
 &lt;label for=&quot;optie_3&quot;&gt;Dit is optie 3&lt;/label&gt;
 </pre>
 
-Elke optie krijgt een aparte naam via het name attribuut
-De waarde die wordt verstuurd staat in het value attribuut van elke optie
-De id van de optie is belangrijk om het label via het for attribuut te koppelen
-De optie die al geselecteerd wordt bij het laden krijgt het attribuut checked mee
+Elke optie krijgt een aparte naam via het <code>name</code> attribuut
+De waarde die wordt verstuurd staat in het <code>value</code> attribuut van elke optie
+De <code>id</code> van de optie is belangrijk om het label via het <code>for</code> attribuut te koppelen
+De optie die al geselecteerd wordt bij het laden krijgt het attribuut <code>checked</code> mee
 
 <pre data-enlighter-language="html">
 &lt;input type=&quot;checkbox&quot; checked /&gt;
@@ -110,9 +110,9 @@ De optie die al geselecteerd wordt bij het laden krijgt het attribuut checked me
 &lt;textarea name=&quot;bericht&quot; rows=&quot;10&quot; cols=&quot;30&quot;&gt;&lt;/textarea&gt;
 </pre>
 
-Via het attribuut cols geef je de breedte op van het tekstveld.
-Via het attribuut rows geef je de hoogte op van het tekstveld.
-Een name attribuut is verplicht bij een textarea element
+Via het attribuut <code>cols</code> geef je de breedte op van het tekstveld.
+Via het attribuut <code>rows</code> geef je de hoogte op van het tekstveld.
+Een <code>name</code> attribuut is verplicht bij een textarea element
 
 #### Een knop
 <pre data-enlighter-language="html">
@@ -123,7 +123,7 @@ Een name attribuut is verplicht bij een textarea element
 <pre data-enlighter-language="html">
 &lt;input type=&quot;submit&quot; value=&quot;Verstuur&quot; /&gt;
 </pre>
-Een verzend knop verzend de inhoud van het formulier naar de de URL die in het action attribuut staat van het form element.
+Een verzend knop verzend de inhoud van het formulier naar de de URL die in het <code>action</code> attribuut staat van het <code>&lt;form&gt;</code> element.
 
 #### Bestand opladen
 <pre data-enlighter-language="html">

@@ -20,7 +20,7 @@ p, quote, ul, .enlighter-default {
     margin: 0 0 1.5rem;
 }
 
-h2, h3 {
+h2, h3, h4 {
     margin-bottom: 1.5rem;
     margin-top: 3rem;
 }
