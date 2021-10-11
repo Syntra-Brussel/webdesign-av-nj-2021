@@ -30,6 +30,11 @@ quote {
 }
  
  
+.highlight {
+    border: 1px solid #FF3521;
+    padding: 2rem;
+}
+
 .content-right {
     max-width: 1000px;
 }

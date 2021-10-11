@@ -7,6 +7,7 @@ collection: html
 
 ## Introductie
 
+<div class="highlight">
 <strong>HTML:</strong>
 
 <ul>
@@ -23,6 +24,7 @@ collection: html
         </ul>
     </li>
 </ul>
+</div>
 
 ### HTML is een meta taal
 
