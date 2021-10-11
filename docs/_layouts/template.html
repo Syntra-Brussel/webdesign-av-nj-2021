@@ -16,47 +16,49 @@
                 <div class="logo">
                     <a href="index"><img src="{{ '/images/logo.png?v=1' | relative_url}}" /></a>
                 </div>
-                <ul class="nav nav-pills nav-stacked">
-                    {% for item in site.data.navigation.items %} 
-                        {% assign item_url = item.url | append: '.html' %}
-                        {% if page.url == item_url %}
-                            <li class="active"><a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                        {% else %} 
-                            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                        {% endif %}
-                        {% if page.collection contains item.collection %}
-                            {% if item.topics %}
-                                <ul>
-                                {% for topic in item.topics %}
-                                    {% assign topic_url = topic.url | append: '.html' %}
-                                    {% if page.url == topic_url %}
-                                        <li class="active"><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>
-                                    {% else %} 
-                                        <li><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>
-                                    {% endif %}                                 
-                                    {% if page.collection contains topic.collection %}
-                                        {% if topic.subjects %}
-                                            <ul>
-                                            {% for subject in topic.subjects %}
-                                                {% assign subject_url = subject.url | append: '.html' %}
-                                                {% if page.url == subject_url %}
-                                                    <li class="active"><a href="{{ subject.url | relative_url }}">{{ subject.title }}</a>
-                                                {% else %} 
-                                                    <li><a href="{{ subject.url | relative_url }}">{{ subject.title }}</a>
-                                                {% endif %}
-                                                </li>
-                                            {% endfor %}
-                                            </ul>
-                                        {% endif %}
-                                    {% endif %}
-                                    </li>
-                                {% endfor %}
-                                </ul>
+                <nav id="column_left">	
+                    <ul class="nav nav-list">
+                        {% for item in site.data.navigation.items %} 
+                            {% assign item_url = item.url | append: '.html' %}
+                            {% if page.url == item_url %}
+                                <li class="active"><a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                            {% else %} 
+                                <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a>
                             {% endif %}
-                        {% endif %}
-                        </li>
-                    {% endfor %}            
-                </ul>
+                            {% if page.collection contains item.collection %}
+                                {% if item.topics %}
+                                    <ul class="nav nav-list">
+                                    {% for topic in item.topics %}
+                                        {% assign topic_url = topic.url | append: '.html' %}
+                                        {% if page.url == topic_url %}
+                                            <li class="active"><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>
+                                        {% else %} 
+                                            <li><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>
+                                        {% endif %}                                 
+                                        {% if page.collection contains topic.collection %}
+                                            {% if topic.subjects %}
+                                                <ul class="nav nav-list">
+                                                {% for subject in topic.subjects %}
+                                                    {% assign subject_url = subject.url | append: '.html' %}
+                                                    {% if page.url == subject_url %}
+                                                        <li class="active"><a href="{{ subject.url | relative_url }}">{{ subject.title }}</a>
+                                                    {% else %} 
+                                                        <li><a href="{{ subject.url | relative_url }}">{{ subject.title }}</a>
+                                                    {% endif %}
+                                                    </li>
+                                                {% endfor %}
+                                                </ul>
+                                            {% endif %}
+                                        {% endif %}
+                                        </li>
+                                    {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            {% endif %}
+                            </li>
+                        {% endfor %}            
+                    </ul>
+                </nav>   
             </div>
 
             <div class="col-sm-10">
