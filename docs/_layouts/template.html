@@ -18,11 +18,11 @@
         <ul class="nav nav-pills nav-stacked">
             {% for node in site.pages %}
               {% if node.filename != "index" %}
-                {% set class = "" %} 
                 {% if page.filename == node.filename %}
-                {% set class = "active" %}
+                  <li class="active"><a href="{{ node.filename }}">{{ node.title }}</a></li>
+                {% else %}
+                  <li><a href="{{ node.filename }}">{{ node.title }}</a></li>
                 {% endif %}
-                <li class="{{ class }}"><a href="{{ node.filename }}">{{ node.title }}</a></li>
               {% endif %}
             {% endfor %}  
         </ul>
