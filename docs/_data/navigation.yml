@@ -1,5 +1,6 @@
 items:
-  - url: /git
+  - id: git
+    url: /git    
     title: 'GIT'
     topics:
       - url: /git/installeren
@@ -12,5 +13,6 @@ items:
         title: 'De stappen in het GIT proces'
       - url: /git/conflicten
         title: 'Conflicten'
-  - url: /html
+  - id: html
+    url: /html
     title: 'HTML'
