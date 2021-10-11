@@ -37,14 +37,14 @@ Zoals hierboven aangegeven geeft HTML structuur aan de inhoud. Via elementen bes
 De browser geeft aan sommige tags al een basis opmaak maar de eigenlijke opmaak wordt gedefinieerd binnen CSS of inline style. Dat bekijken we in het volgende hoofdstuk.
 
 De HTML taal heeft al een hele evolutie doorgemaakt:
-
+ 
 <table>
-<tr><td>HTML</td></td>1991</td></tr>
-<tr><td>HTML 2.0</td></td>1995</td></tr>
-<tr><td>HTML 3.2</td></td>1997</td></tr>
-<tr><td>HTML 4.01</td></td>1999</td></tr>
-<tr><td>XHTML</td></td>2000</td></tr>
-<tr><td>HTML5</td></td>2014</td></tr>
+<tr><td>HTML</td><td>1991</td></tr>
+<tr><td>HTML 2.0</td><td>1995</td></tr>
+<tr><td>HTML 3.2</td><td>1997</td></tr>
+<tr><td>HTML 4.01</td><td>1999</td></tr>
+<tr><td>XHTML</td><td>2000</td></tr>
+<tr><td>HTML5</td><td>2014</td></tr>
 </table>
 
 Naast heel wat bijsturingen in de schrijfwijze van de HTML taal zijn er met de komst van HTML5 heel wat nieuwe tags geïntroduceerd die de inhoud nog beter beschrijven. 
