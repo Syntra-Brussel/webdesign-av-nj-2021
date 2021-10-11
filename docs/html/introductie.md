@@ -7,7 +7,7 @@ collection: html
 
 ## Introductie
 
-### Hyper Text Markup Language
+### HTML
 <div class="highlight">
 <ul>
     <li>staat voor Hyper Text Markup Language</li>
