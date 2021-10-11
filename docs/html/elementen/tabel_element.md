@@ -58,6 +58,9 @@ Je kan ook meerdere kolommen samenvoegen via het attribuut colspan:
   &lt;/tr&gt; 
 &lt;/table&gt;
 </pre>
+
+<img src="{{ '/html/elementen/images/colspan.png' | relative_url}}" />
+
 Je kan ook meerdere rijen samenvoegen via het attribuut rowspan:
 
 <pre data-enlighter-language="html">
@@ -76,30 +79,4 @@ Je kan ook meerdere rijen samenvoegen via het attribuut rowspan:
 &lt;/table&gt;
 </pre>
 
-
-<table widh="100%" border="1">
-  <tr>
-    <th>Naam</th>
-    <th colspan="2">Telefoon</th>
-  </tr>
-  <tr>
-    <td>Bert Jansen</td>
-    <td>03/123.12.34</td>
-    <td>0475/01.23.45</td>
-  </tr>
-</table>
-
-
-<table width="100%">
-  <tr>
-    <th>Naam:</th>
-    <td>Bert Jansen</td>
-  </tr>
-  <tr>
-    <th rowspan="2">Telefoon:</th>
-    <td>03/123.12.34</td>
-  </tr>
-  <tr>
-    <td>0475/01.23.45</td>
-  </tr>
-</table>
+<img src="{{ '/html/elementen/images/rowspan.png' | relative_url}}" />
