@@ -82,7 +82,7 @@ Elk keuze rondje krijgt dezelfde naam via het <code>name</code> attribuut
 De waarde die wordt verstuurd staat in het <code>value</code> attribuut van elk keuze rondje
 De <code>id</code> van de optie is belangrijk om het label via het <code>for</code> attribuut te koppelen
 De optie die al geselecteerd wordt bij het laden krijgt het attribuut <code>checked</code> mee
-<input type="radio" checked />
+<code>&lt;input type=&quot;radio&quot; checked /&gt;</code>
 
 #### Selectie vakje (checkbox)
 Er zijn meerdere opties mogelijk.
