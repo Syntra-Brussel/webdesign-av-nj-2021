@@ -6,7 +6,7 @@ items:
       - url: /git/installeren
         title: 'GIT installeren'
       - url: /git/belangrijkste_termen
-        title: 'Belangrijke termen'
+        title: 'Belangrijkste termen'
       - url: /git/werken_met_repository     
         title: 'Werken met een repository'
       - url: /git/stappen
