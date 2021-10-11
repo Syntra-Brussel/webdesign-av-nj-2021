@@ -51,6 +51,13 @@ quote {
     margin-bottom: 1.5rem;
 }
 
+.highlight label {
+    color: #FF3521;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
 .content-right {
     max-width: 1000px;
 }
