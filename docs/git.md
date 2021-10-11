@@ -5,7 +5,7 @@ url: /git
 collection: git
 ---
 
-# Een introductie van GIT
+## Een introductie van GIT
 
 GIT is één van de belangrijkste versie beheer systemen (VCS –  Versioning Control System) dat wereldwijd wordt gebruikt.
 
