@@ -31,8 +31,34 @@ items:
     topics:
       - url: /html/introductie
         title: Introductie
-      - url: /html/elementen
+      - url: /html/elementen      
+        collection: elementen
         title: Elementen
+        subjects:
+          - url: /html/elementen/openen_sluiten
+            title: 'Elementen openen en weer sluiten'
+          - url: /html/elementen/attributen
+            title: 'Elementen hebben attributen'
+          - url: /html/elementen/meta_elementen
+            title: 'Meta elementen'            
+          - url: /html/elementen/basis_elementen
+            title: 'Basis elementen voor inhoud'
+          - url: /html/elementen/oefening_1
+            title: 'OEFENING 1: basis elementen'            
+          - url: /html/elementen/tabel_elementen
+            title: 'Tabel elementen'
+          - url: /html/elementen/oefening_2
+            title: 'OEFENING 2: Factuur'
+          - url: /html/elementen/formulier_elementen
+            title: 'Formulier elementen'
+          - url: /html/elementen/oefening_3
+            title: 'OEFENING 3: Sollicitatieformulier'            
+          - url: /html/elementen/semantisch_vs_niet_semantisch
+            title: 'Niet-semantische vs. semantische elementen'            
+          - url: /html/elementen/block_vs_inline_block
+            title: 'Block elementen vs. inline-block elementen'
+          - url: /html/elementen/oefening_4
+            title: 'OEFENING 4: Obelisk startpagina'                                 
       - url: /html/samenvatting
         title: Samenvatting
       - url: /html/extra_oefening

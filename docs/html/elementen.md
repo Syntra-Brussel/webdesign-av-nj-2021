@@ -2,7 +2,7 @@
 layout: template
 title: Elementen
 url: /html/elementen
-collection: html
+collection: [html, elementen]
 ---
 
 ## Elementen
