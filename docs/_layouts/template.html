@@ -24,7 +24,7 @@
                         {% else %} 
                             <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a>
                         {% endif %}
-                        {% if item.id == page.navigation %}
+                        {% if page.navigation contains item.id %}
                             {% if item.topics %}
                                 <ul>
                                 {% for topic in item.topics %}

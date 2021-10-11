@@ -3,12 +3,24 @@ items:
     url: /git    
     title: 'GIT'
     topics:
-      - url: /git/installeren
+      - id: git_installeren
+        url: /git/installeren
         title: 'GIT installeren'
+        subjects:
+          - url: /git/installeren/github_service        
+            title: 'Github service'
+          - url: /git/installeren/github_client
+            title: 'Github client'          
       - url: /git/belangrijkste_termen
         title: 'Belangrijkste termen'
-      - url: /git/werken_met_repository     
+      - id: werken_met_git
+        url: /git/werken_met_repository     
         title: 'Werken met een repository'
+        subjects:
+          - url: /git/werken_met_repository/bestaande        
+            title: 'Bestaande repository'
+          - url: /git/werken_met_repository/nieuwe
+            title: 'Nieuwe repository'            
       - url: /git/stappen
         title: 'De stappen in het GIT proces'
       - url: /git/conflicten
