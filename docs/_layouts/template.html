@@ -11,10 +11,12 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Syntra Brussel - Webdesign</h1>
+      <h1 class="project-name"><a href="index">Syntra Brussel - Webdesign</a></h1>
       <h2 class="project-tagline"></h2>
       {% for page in site.pages %}
+        {% if page.filename != "index" %}
         <a href="{{ page.filename }}" class="btn">{{ page.title }}</a>
+        {% endif %}
       {% endfor %}
     </section>
 
