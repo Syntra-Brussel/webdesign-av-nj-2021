@@ -20,6 +20,14 @@
                 <a href="index"><img src="{{ '/images/logo.png?v=1' | relative_url}}" /></a>
             </div>
             <ul class="nav nav-pills nav-stacked">
+                {% for item in site.data.navigation.items %}
+                    {% if page.filename == item.filename %}
+                        <li class="active"><a href="{{ item.filename }}">{{ item.title }}</a></li>
+                    {% else %}
+                        <li><a href="{{ item.filename }}">{{ item.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+                {#
                 {% for node in site.pages %}
                     {% if node.filename != "index" %}
                         {% if page.filename == node.filename %}
@@ -29,6 +37,7 @@
                         {% endif %}
                     {% endif %}
                 {% endfor %}  
+                #}
             </ul>
         </div>
 

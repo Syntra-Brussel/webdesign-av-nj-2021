@@ -1,7 +1,8 @@
 ---
 layout: template
 title: Belangrijkste termen
-filename: git_belangrijkste_termen
+filename: git/belangrijkste_termen
+navigation: git
 ---
 
 # Belangrijkste termen

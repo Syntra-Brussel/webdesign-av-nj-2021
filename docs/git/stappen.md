@@ -1,7 +1,8 @@
 ---
 layout: template
 title: De stappen in het GIT proces
-filename: git_stappen
+filename: git/stappen
+navigation: git
 ---
 
 # De stappen in het GIT proces

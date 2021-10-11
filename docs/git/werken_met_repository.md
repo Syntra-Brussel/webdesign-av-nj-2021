@@ -1,7 +1,8 @@
 ---
 layout: template
 title: Werken met een repository
-filename: git_werken_met_repository
+filename: git/werken_met_repository
+navigation: git
 ---
 
 # Werken met een repository
