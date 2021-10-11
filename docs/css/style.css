@@ -41,5 +41,5 @@ a {
 }
 
 a:hover {
-    color: #FF3521;
+    color: #FF3521!important;
 }
