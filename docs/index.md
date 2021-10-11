@@ -1,3 +1,9 @@
+---
+title: Syntra Brussel - Webdesign
+layout: template
+filename: index
+--- 
+
 ## Welcome to GitHub Pages
 
 <a href="html.html">HTML</a>
