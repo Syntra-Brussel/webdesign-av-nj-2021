@@ -13,14 +13,14 @@ a[target="_blank"]:after {
 
 p, quote {
     margin: 0 0 1rem;
-    font: 2rem/1.6;
+    font-size: 2rem!important;
 }
 
 quote {
     max-width: 20em;
     padding: 1em;
     margin-left: 1rem;
-    font-size: 3rem/2.6!important;
+    font-size: 3rem!important; 
     border-left: #C0C0C0 1px solid!important;
     display: block;
 }
