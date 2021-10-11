@@ -32,19 +32,21 @@ Het required attribuut zorgt voor een frontend validatie op een geldig e-mail ad
 
 Naast het type email, zijn ook volgende types geïntroduceerd:
 
-color
-date
-datetime
-datetime-local
-email
-month
-number
-range
-search
-tel
-time
-url
-week
+<ul>
+<li>color</li>
+<li>date</li>
+<li>datetime</li>
+<li>datetime-local</li>
+<li>email</li>
+<li>month</li>
+<li>number</li>
+<li>range</li>
+<li>search</li>
+<li>tel</li>
+<li>time</li>
+<li>url</li>
+<li>week</li>
+</ul>
 
 ### Elementen die al voor HTML5 bestonden
 #### Een tekstveld
@@ -62,9 +64,12 @@ Het <code>name</code> attribuut is verplicht bij een <code>&lt;input&gt;</code> 
   &lt;option value=&quot;audi&quot;&gt;Audi&lt;/option&gt; 
 &lt;/select&gt;
 </pre>
-Waneer meer dan 1 optie geselecteerd mag worden krijgt het <code>&lt;select&gt;</code> element een attribuut <code>multiple</code>.
-De optie die geselecteerd wordt krijgt het attribuut <code>selected</code>
-Een <code>name</code> attribuut is verplicht bij een <code>&lt;select&gt;</code> element
+
+<ul>
+<li>Waneer meer dan 1 optie geselecteerd mag worden krijgt het <code>&lt;select&gt;</code> element een attribuut <code>multiple</code>.</li>
+<li>De optie die geselecteerd wordt krijgt het attribuut <code>selected</code>.</li>
+<li>Een <code>name</code> attribuut is verplicht bij een <code>&lt;select&gt;</code> element.</li>
+</ul>
 
 #### Selectie rondje (radio)
 Er is maar één keuze mogelijk.
@@ -77,13 +82,16 @@ Er is maar één keuze mogelijk.
 &lt;input type=&quot;radio&quot; id=&quot;optie_3&quot; name=&quot;optie&quot; value=&quot;Optie 3&quot;&gt; 
 &lt;label for=&quot;optie_3&quot;&gt;Dit is optie 3&lt;/label&gt;
 </pre>
+<ul>
+<li>Elk keuze rondje krijgt dezelfde naam via het <code>name</code> attribuut</li>
+<li>De waarde die wordt verstuurd staat in het <code>value</code> attribuut van elk keuze rondje</li>
+<li>De <code>id</code> van de optie is belangrijk om het label via het <code>for</code> attribuut te koppelen</li>
+<li>De optie die al geselecteerd wordt bij het laden krijgt het attribuut <code>checked</code> mee</li>
+</ul>
 
-Elk keuze rondje krijgt dezelfde naam via het <code>name</code> attribuut
-De waarde die wordt verstuurd staat in het <code>value</code> attribuut van elk keuze rondje
-De <code>id</code> van de optie is belangrijk om het label via het <code>for</code> attribuut te koppelen
-De optie die al geselecteerd wordt bij het laden krijgt het attribuut <code>checked</code> mee
-<code>&lt;input type=&quot;radio&quot; checked /&gt;</code>
-
+<pre data-enlighter-language="html">
+&lt;input type=&quot;radio&quot; checked /&gt;
+</pre>
 #### Selectie vakje (checkbox)
 Er zijn meerdere opties mogelijk.
 
@@ -96,10 +104,12 @@ Er zijn meerdere opties mogelijk.
 &lt;label for=&quot;optie_3&quot;&gt;Dit is optie 3&lt;/label&gt;
 </pre>
 
-Elke optie krijgt een aparte naam via het <code>name</code> attribuut
-De waarde die wordt verstuurd staat in het <code>value</code> attribuut van elke optie
-De <code>id</code> van de optie is belangrijk om het label via het <code>for</code> attribuut te koppelen
-De optie die al geselecteerd wordt bij het laden krijgt het attribuut <code>checked</code> mee
+<ul>
+<li>Elke optie krijgt een aparte naam via het <code>name</code> attribuut</li>
+<li>De waarde die wordt verstuurd staat in het <code>value</code> attribuut van elke optie</li>
+<li>De <code>id</code> van de optie is belangrijk om het label via het <code>for</code> attribuut te koppelen</li>
+<li>De optie die al geselecteerd wordt bij het laden krijgt het attribuut <code>checked</code> mee</li>
+</ul>
 
 <pre data-enlighter-language="html">
 &lt;input type=&quot;checkbox&quot; checked /&gt;
@@ -109,11 +119,11 @@ De optie die al geselecteerd wordt bij het laden krijgt het attribuut <code>chec
 <pre data-enlighter-language="html">
 &lt;textarea name=&quot;bericht&quot; rows=&quot;10&quot; cols=&quot;30&quot;&gt;&lt;/textarea&gt;
 </pre>
-
-Via het attribuut <code>cols</code> geef je de breedte op van het tekstveld.
-Via het attribuut <code>rows</code> geef je de hoogte op van het tekstveld.
-Een <code>name</code> attribuut is verplicht bij een textarea element
-
+<ul>
+<li>Via het attribuut <code>cols</code> geef je de breedte op van het tekstveld</li>
+<li>Via het attribuut <code>rows</code> geef je de hoogte op van het tekstveld</li>
+<li>Een <code>name</code> attribuut is verplicht bij een textarea element</li>
+</ul>
 #### Een knop
 <pre data-enlighter-language="html">
 &lt;button type=&quot;button&quot;&gt;Klik mij!&lt;/button&gt;
