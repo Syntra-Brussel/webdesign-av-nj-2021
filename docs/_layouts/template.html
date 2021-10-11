@@ -17,14 +17,14 @@
                     <a href="index"><img src="{{ '/images/logo.png?v=1' | relative_url}}" /></a>
                 </div>
                 <ul class="nav nav-pills nav-stacked">
-                    {% for item in site.data.navigation.items %} 
+                    {% for item in site.data.collection.items %} 
                         {% assign item_url = item.url | append: '.html' %}
                         {% if page.url == item_url %}
                             <li class="active"><a href="{{ item.url | relative_url }}">{{ item.title }}</a>
                         {% else %} 
                             <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a>
                         {% endif %}
-                        {% if page.navigation contains item.id %}
+                        {% if page.collection contains item.collection %}
                             {% if item.topics %}
                                 <ul>
                                 {% for topic in item.topics %}

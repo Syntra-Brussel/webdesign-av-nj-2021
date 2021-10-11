@@ -2,7 +2,7 @@
 layout: template
 title: GIT
 url: /git
-navigation: git
+collection: git
 ---
 
 # Een introductie van GIT

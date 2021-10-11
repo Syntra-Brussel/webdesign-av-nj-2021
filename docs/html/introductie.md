@@ -2,7 +2,7 @@
 layout: template
 title: Introductie
 url: /html/introductie
-navigation: html
+collection: html
 ---
 
 ## Introductie

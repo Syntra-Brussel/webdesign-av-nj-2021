@@ -2,7 +2,7 @@
 layout: template
 title: De stappen in het GIT proces
 url: /git/stappen
-navigation: git
+collection: git
 ---
 
 ## De stappen in het GIT proces

@@ -2,7 +2,7 @@
 layout: template
 title: GIT installeren
 url: /git/installeren
-navigation: git
+collection: git
 ---
 
 ## GIT installeren
