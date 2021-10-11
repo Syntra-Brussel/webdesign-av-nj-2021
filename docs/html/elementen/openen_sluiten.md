@@ -8,7 +8,7 @@ collection: [html, elementen]
 ## Elementen openen en sluiten
 
 
-<img src="{{ '/html/elementen/images/Schermafbeelding 2021-10-11 om 20.15.10.jpg' | relative_url}}" />
+<img src="{{ '/html/elementen/images/html.png' | relative_url}}" />
 
 Elementen staan rond de inhoud waarop ze betrekking hebben. Het <span style="color: green">&lt;html&gt;</span> element heeft betrekking op de volledige inhoud en staat dus rond alle inhoud.
 
