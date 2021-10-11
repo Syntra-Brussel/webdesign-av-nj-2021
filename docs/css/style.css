@@ -51,6 +51,6 @@ footer {
 ul.nav ul,
 ul.nav ul ul,
 ul.nav ul ul ul {
-    padding-left: 15px!important;
+    margin-left: 15px!important;
     border-left: #C0C0C0 1px solid!important;
 }
