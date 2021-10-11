@@ -22,7 +22,7 @@ collection: html
             <li>onderdelen in een webpagina (een header, een footer, een navigatie, …)</li>
         </ul>
     </li>
-<ul>
+</ul>
 
 ### HTML is een meta taal
 
