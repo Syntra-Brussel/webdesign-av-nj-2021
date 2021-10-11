@@ -1,7 +1,7 @@
 ---
 layout: template
-title: Syntra Brussel - Webdesign / HTML
-permalink: /html
+title: HTML
+filename: html
 ---
 
 # HTML: Hyper Text Markup Language

@@ -1,7 +1,7 @@
 ---
 title: Syntra Brussel - Webdesign
 layout: template
-permalink: /
+filename: index
 --- 
 
 ## Welcome to GitHub Pages
