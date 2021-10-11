@@ -34,6 +34,7 @@ footer {
 
 .nav>li.active>a, .nav>li.active>a:focus, .nav>li.active>a:hover {
     background-color: #930201;
+    color: #FFF;
 } 
 
 a {
