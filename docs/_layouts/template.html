@@ -10,6 +10,9 @@
   <script src="https://kit.fontawesome.com/2d03a6046d.js"></script>
   <link rel="stylesheet" href="{{ '/css' | relative_url }}/style.css?v=14">
  
+  <!-- EnlighterJS CSS !-->
+  <link rel="stylesheet" href="{{ '/assets' | relative_url }}/enlighter/enlighterjs.min.css" />
+
 </head>
 <body>
     <div class="container-fluid">
@@ -73,5 +76,20 @@
     <p>Syntra Brussel - Webdesign</p>
     </footer>
 
+    <!-- EnlighterJS -->
+    <script type="text/javascript" src="{{ '/assets' | relative_url }}/enlighterjs.min.js"></script>
+
+    <!-- Init Code -->
+    <script type="text/javascript">
+        // - highlight all pre + code tags (CSS3 selectors)
+        // - use javascript as default language
+        // - use theme "enlighter" as default theme
+        // - replace tabs with 2 spaces
+        EnlighterJS.init('pre', 'code', {
+                language : 'javascript',
+                theme: 'enlighter',
+                indent : 2
+        });
+    </script>
 </body>
 </html>
