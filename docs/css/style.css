@@ -16,8 +16,8 @@ a[target="_blank"]:after {
     content: " \f08e";
 }
 
-p, quote {
-    margin: 0 0 1rem;
+p, quote, ul, .enlighter-default {
+    margin: 0 0 1.5rem;
 }
 
 quote {
