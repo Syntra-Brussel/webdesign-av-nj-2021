@@ -16,7 +16,7 @@ Het <span style="color: red">&lt;head&gt;</span> element staat rond de niet zich
 
 Het <span style="color: red">&lt;body&gt;</span> element bevat de de zichtbare inhoud.
 
-<img src="{{ '/html/elementen/images/image-147.png' | relative_url}}" />
+<img src="{{ '/html/elementen/images/html_zichtbaar.png' | relative_url}}" />
 
 Sommige tags bevatten geen inhoud. Ze worden dan niet geopend en terug gesloten maar meteen gesloten:
 
