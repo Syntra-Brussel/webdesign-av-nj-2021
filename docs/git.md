@@ -1,7 +1,7 @@
 ---
 layout: template
-title: "GIT"
-permalink: /GIT/
+title: Syntra Brussel - Webdesign / GIT
+permalink: /GIT
 ---
 
-# Een introductie in GIT
+# Een introductie van GIT
