@@ -7,8 +7,6 @@ collection: [html, elementen]
 
 ## Oefening 2
 
-## Oefening 1
-
 <div class="highlight">
     <label>instructies</label>
     <ul>
