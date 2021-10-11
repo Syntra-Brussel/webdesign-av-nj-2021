@@ -17,7 +17,8 @@ Je zal meta informatie nooit zien op de webpagina zelf maar deze data wordt wel 
 
 <pre>
 &lt;head&gt;
-&lt;meta charset=&quot;UTF-8&quot;&gt; &lt;title&gt;Voorbeeld van meta-tags&lt;/title&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt; 
+&lt;title&gt;Voorbeeld van meta-tags&lt;/title&gt;
 &lt;meta name=&quot;description&quot; content=&quot;Wij leren HTML&quot;&gt;
 &lt;meta name=&quot;keywords&quot; content=&quot;HTML,CSS,JavaScript&quot;&gt;
 &lt;meta name=&quot;author&quot; content=&quot;IT&amp;Zo&quot;&gt; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt; 
