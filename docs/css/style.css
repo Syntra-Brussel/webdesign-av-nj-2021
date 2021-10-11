@@ -39,3 +39,7 @@ footer {
 a {
     color: #930201;
 }
+
+a:hover {
+    color: #FF3521;
+}
