@@ -35,7 +35,7 @@ Een titel (van belangrijk naar minder belangrijk)
 </pre>
 Weinig opmaak, enkele een verschil in grootte.
 
-<img src="{{ '/html/elementen/images/hh5.png' | relative_url}}" />
+<img src="{{ '/html/elementen/images/h1-h5.png' | relative_url}}" />
 
 Vette tekst
 <pre data-enlighter-language="html">
