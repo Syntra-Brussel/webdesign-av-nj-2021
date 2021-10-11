@@ -24,17 +24,19 @@
                         {% else %} 
                             <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a>
                         {% endif %}
-                        {% if item.topics %}
-                            <ul>
-                            {% for topic in item.topics %}
-                                {% assign topic_url = topic.url | append: '.html' %}
-                                {% if page.url == topic.url %}
-                                    <li class="active"><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>
-                                {% else %} 
-                                    <li><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>
-                                {% endif %}
-                            {% endfor %}
-                            </ul>
+                        {% if item.navigation == page.navigation %}
+                            {% if item.topics %}
+                                <ul>
+                                {% for topic in item.topics %}
+                                    {% assign topic_url = topic.url | append: '.html' %}
+                                    {% if page.url == topic.url %}
+                                        <li class="active"><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>
+                                    {% else %} 
+                                        <li><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>
+                                    {% endif %}
+                                {% endfor %}
+                                </ul>
+                            {% endif %}
                         {% endif %}
                         </li>
                     {% endfor %}            
