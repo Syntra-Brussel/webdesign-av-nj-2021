@@ -34,6 +34,7 @@
                                     {% else %} 
                                         <li><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>
                                     {% endif %}
+                                    {{ topic.collection }}
                                     {% if page.collection contains topic.collection %}
                                         {% if topic.subjects %}
                                             <ul>
