@@ -11,6 +11,14 @@ a[target="_blank"]:after {
     content: " \f08e";
 }
 
+quote {
+    max-width: 20em;
+    margin: 1em;
+    font: 1.8rem/1.4 Georgia, serif;
+    border-left: #C0C0C0 1px solid!important;
+  }
+
+
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
 .row.content {height: 1500px}
 
