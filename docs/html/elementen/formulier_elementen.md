@@ -51,7 +51,7 @@ week
 <pre data-enlighter-language="html">
 &lt;input name=&quot;voornam&quot; type=&quot;text&quot;&gt;
 </pre>
-Het <code>name<./code> attribuut is verplicht bij een <code>&lt;input&gt;</code> element
+Het <code>name</code> attribuut is verplicht bij een <code>&lt;input&gt;</code> element
 
 #### De selectielijst
 <pre data-enlighter-language="html">
