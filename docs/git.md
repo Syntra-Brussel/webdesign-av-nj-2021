@@ -10,7 +10,7 @@ collection: git
 GIT is één van de belangrijkste versie beheer systemen (VCS –  Versioning Control System) dat wereldwijd wordt gebruikt.
 
 Het systeem laat toe om met verschillende mensen samen te werken op één codebase. 
-
+ 
 <img src="{{ '/git/images/cvcss.png' | relative_url}}" />
 
 Op de computer van elke ontwikkelaar worden de aanpassingen op de code bijgehouden en periodiek naar de <strong>GIT server</strong> gestuurd zodat ze door de andere ontwikkelaar kunnen worden <strong>gesynchroniseerd</strong>. 
