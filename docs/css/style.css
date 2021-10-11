@@ -1,3 +1,7 @@
+* {
+    font-size: 1.5rem!important;
+}
+
 a {
     color: #930201;
 }
@@ -13,14 +17,13 @@ a[target="_blank"]:after {
 
 p, quote {
     margin: 0 0 1rem;
-    font-size: 2rem!important;
 }
 
 quote {
     max-width: 20em;
     padding: 1em;
     margin-left: 1rem;
-    font-size: 3rem!important; 
+    font-size: 2.5rem!important; 
     border-left: #C0C0C0 1px solid!important;
     display: block;
 }
