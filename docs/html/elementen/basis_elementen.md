@@ -117,8 +117,8 @@ Het label element element wordt het vaakst gebruikt in combinatie met formulier 
 <pre data-enlighter-language="html">
 &lt;label for=&quot;naam&quot;&gt;Naam&lt;/label&gt;
 &lt;input type=&quot;text&quot; id=&quot;naam&quot; /&gt;
-
 </pre>
+
 Het for attribuut geeft aan bij welk element het label hoort. Je zal zien dat in dit geval het tekstveld de focus krijgt als je er op klikt.
 
 In het voorbeeld hierboven hoort het label dus bij het tekstveld met het id attribuut met als waarde “naam”.
