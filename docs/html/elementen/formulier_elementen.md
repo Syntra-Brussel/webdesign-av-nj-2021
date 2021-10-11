@@ -21,7 +21,7 @@ Alle invoer velden moeten binnen <span style="color: blue">&lt;form&gt;</span> e
 
 <img src="{{ '/html/elementen/images/form_html.png' | relative_url}}" />
 
-## Elementen die sinds HTML5 bestaan
+### Elementen die sinds HTML5 bestaan
 Er zijn tal van nieuwe elementen geïntroduceerd die veel meer frontend validatie mogelijk maken.
 
 <pre data-enlighter-language="html">
@@ -46,14 +46,14 @@ time
 url
 week
 
-## Elementen die al voor HTML5 bestonden
-### Een tekstveld
+### Elementen die al voor HTML5 bestonden
+#### Een tekstveld
 <pre data-enlighter-language="html">
 &lt;input name=&quot;voornam&quot; type=&quot;text&quot;&gt;
 </pre>
 Het name attribuut is verplicht bij een input element
 
-### De selectielijst
+#### De selectielijst
 <pre data-enlighter-language="html">
 &lt;select name=&quot;auto&quot;&gt; 
   &lt;option value=&quot;volvo&quot;&gt;Volvo&lt;/option&gt; 
@@ -66,7 +66,7 @@ Waneer meer dan 1 optie geselecteerd mag worden krijgt het <select> element een 
 De optie die geselecteerd wordt krijgt het attribuut selected
 Een name attribuut is verplicht bij een select element
 
-### Selectie rondje (radio)
+#### Selectie rondje (radio)
 Er is maar één optie mogelijk.
 
 <pre data-enlighter-language="html">
@@ -84,7 +84,7 @@ De id van de optie is belangrijk om het label via het for attribuut te koppelen
 De optie die al geselecteerd wordt bij het laden krijgt het attribuut checked mee
 <input type="radio" checked />
 
-### Selectie vakje (checkbox)
+#### Selectie vakje (checkbox)
 Er zijn meerdere opties mogelijk.
 
 <pre data-enlighter-language="html">
@@ -105,7 +105,7 @@ De optie die al geselecteerd wordt bij het laden krijgt het attribuut checked me
 &lt;input type=&quot;checkbox&quot; checked /&gt;
 </pre>
 
-### Een groot tekstveld
+#### Een groot tekstveld
 <pre data-enlighter-language="html">
 &lt;textarea name=&quot;bericht&quot; rows=&quot;10&quot; cols=&quot;30&quot;&gt;&lt;/textarea&gt;
 </pre>
@@ -114,18 +114,18 @@ Via het attribuut cols geef je de breedte op van het tekstveld.
 Via het attribuut rows geef je de hoogte op van het tekstveld.
 Een name attribuut is verplicht bij een textarea element
 
-### Een knop
+#### Een knop
 <pre data-enlighter-language="html">
 &lt;button type=&quot;button&quot;&gt;Klik mij!&lt;/button&gt;
 </pre>
 
-### Een verzend knop
+#### Een verzend knop
 <pre data-enlighter-language="html">
 &lt;input type=&quot;submit&quot; value=&quot;Verstuur&quot; /&gt;
 </pre>
 Een verzend knop verzend de inhoud van het formulier naar de de URL die in het action attribuut staat van het form element.
 
-### Bestand opladen
+#### Bestand opladen
 <pre data-enlighter-language="html">
 &lt;input type=&quot;file&quot; name=&quot;bestand&quot;&gt;
 </pre>
