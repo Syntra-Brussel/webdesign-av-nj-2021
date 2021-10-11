@@ -34,6 +34,22 @@
                                     {% else %} 
                                         <li><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a>
                                     {% endif %}
+                                    {% if page.collection contains topic.collection %}
+                                        {% if topic.subjects %}
+                                            <ul>
+                                            {% for subject in topic.subjects %}
+                                                {% assign subject_url = subject.url | append: '.html' %}
+                                                {% if page.url == subject_url %}
+                                                    <li class="active"><a href="{{ subject.url | relative_url }}">{{ subject.title }}</a>
+                                                {% else %} 
+                                                    <li><a href="{{ subject.url | relative_url }}">{{ subject.title }}</a>
+                                                {% endif %}
+                                                </li>
+                                            {% endfor %}
+                                            </ul>
+                                        {% endif %}
+                                    {% endif %}
+
                                     </li>
                                 {% endfor %}
                                 </ul>
