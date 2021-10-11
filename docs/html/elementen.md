@@ -27,7 +27,9 @@ collection: [html, elementen]
 <li>Het <code>&lgt;title&gt;</code> element geeft de titel van het document, deze wordt getoond in de de browser tab</li>
 
 <li>Het <code>&lgt;body&gt;</code> element bevat alle zichtbare inhoud</li>
-<li>Het <code>&lgt;h1&gt;</code> element definieert de belangrijkste titel op het scherm. Verder in de pagina kunnen <H2> tot <H6> worden gebruikt om hiërarchie in de inhoud te brengen</li>
+<li>Het <code>&lgt;h1&gt;</code> element definieert de belangrijkste titel op het scherm. Verder in de pagina kunnen <code>&lgt;h2&gt;</code> tot <code>&lgt;h6&gt;</code> worden gebruikt om hiërarchie in de inhoud te brengen
+<img src="{{ '/html/elementen/images/image-2-1024x226.png' | relative_url}}" />
+</li>
 
 <li>Het <code>&lgt;p&gt;</code> element definieert een paragraaf</li>
 </ul>
