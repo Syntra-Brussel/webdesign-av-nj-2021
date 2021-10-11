@@ -35,3 +35,7 @@ footer {
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     background-color: #930201;
 } 
+
+a {
+    color: #930201;
+}
