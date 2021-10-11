@@ -26,6 +26,7 @@ collection: [html, elementen]
 <li>Het <code>&lt;html&gt;</code> element is het root element van een HTML pagina</li>
 <li>Het <code>&lt;head&gt;</code> element bevat meta informatie over het document, de inhoud wordt niet getoond in de browser maar kan wel gelezen worden door bv. de Google zoekmachine
 -> meta informatie = informatie over de informatie
+
 <img src="{{ '/html/images/image-143-150x150.png' | relative_url}}" />
 </li>
 
