@@ -30,9 +30,9 @@ We werken niet met boeken maar er zijn wel heel zeer gedetailleerde online bronn
 <li><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/">https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started</a></li>
 </ul>
 
-<code>
+<pre data-enlighter-language="less">
 <html>
     <head>xxx</head>
     <body>yyy</body>
 </html>
-<code>
+</pre>
