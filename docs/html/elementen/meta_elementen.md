@@ -15,7 +15,7 @@ Je zal meta informatie nooit zien op de webpagina zelf maar deze data wordt wel 
 </div>
 
 
-<pre>
+<pre data-enlighter-language="html">
 &lt;head&gt;
   &lt;meta charset=&quot;utf-8&quot;&gt;
   &lt;title&gt;Voorbeeld van meta-tags&lt;/title&gt;
