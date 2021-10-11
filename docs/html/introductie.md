@@ -40,7 +40,7 @@ De browser geeft aan sommige tags al een basis opmaak maar de eigenlijke opmaak 
 
 De HTML taal heeft al een hele evolutie doorgemaakt:
  
-<table>
+<table class="table">
 <tr><td>HTML</td><td>1991</td></tr>
 <tr><td>HTML 2.0</td><td>1995</td></tr>
 <tr><td>HTML 3.2</td><td>1997</td></tr>
