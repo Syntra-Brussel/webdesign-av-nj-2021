@@ -45,8 +45,8 @@ items:
             title: 'Basis elementen voor inhoud'
           - url: /html/elementen/oefening_1
             title: 'OEFENING 1: basis elementen'            
-          - url: /html/elementen/tabel_elementen
-            title: 'Tabel elementen'
+          - url: /html/elementen/tabel_element
+            title: 'Tabel element'
           - url: /html/elementen/oefening_2
             title: 'OEFENING 2: Factuur'
           - url: /html/elementen/formulier_elementen
