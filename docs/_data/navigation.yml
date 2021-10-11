@@ -14,7 +14,7 @@ items:
       - url: /git/belangrijkste_termen
         title: 'Belangrijkste termen'
       - url: /git/werken_met_repository     
-        collection: werken_met_git
+        collection: werken_met_repository
         title: 'Werken met een repository'
         subjects:
           - url: /git/werken_met_repository/bestaande        
