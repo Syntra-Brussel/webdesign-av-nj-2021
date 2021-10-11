@@ -16,7 +16,7 @@
                 <div class="logo">
                     <a href="index"><img src="{{ '/images/logo.png?v=1' | relative_url}}" /></a>
                 </div>
-                <nav id="column_left">	
+                <nav>	
                     <ul class="nav nav-list">
                         {% for item in site.data.navigation.items %} 
                             {% assign item_url = item.url | append: '.html' %}
