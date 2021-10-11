@@ -14,7 +14,7 @@
     <div class="container-fluid">
     <div class="row content">
         <div class="col-sm-3 sidenav">
-        <a href="index"><img src="{{ site.url }}/images/logo.png" /></a>
+        <a href="index"><img src="{{ '/images/logo.png' | relative_url}}" /></a>
         <ul class="nav nav-pills nav-stacked">
             {% for node in site.pages %}
               {% if node.filename != "index" %}
