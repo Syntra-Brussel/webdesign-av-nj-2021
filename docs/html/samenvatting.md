@@ -16,7 +16,7 @@ Semantische elementen maken de HTML <strong>code beter leesbaar voor machines</s
 </quote>
 
 <quote>
-We kiezen dus voor het meest correcte semantisch element als dat er is. In elk ander geval gebruiken we het niet-semantische element <code>&lt;div&gt;</code> of <code>&lt;</code>span&gt;</code>.
+We kiezen dus voor het meest correcte semantisch element als dat er is. In elk ander geval gebruiken we het niet-semantische element <code>&lt;div&gt;</code> of <code>&lt;span&gt;</code>.
 <img src="{{ '/html/elementen/images/basis_structuur.jpg' | relative_url}}" />
 </quote>
 
