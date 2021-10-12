@@ -71,7 +71,7 @@ De browser bepaalt zelf welk beeld het gaat inladen.
 
 Wanneer <code>srcset</code> niet wordt ondersteund door de browser wordt het beeld uit het <code>src</code> attribuut geladen.
 
-### <code>&lt;fieldset&gt;</code> element
+#### <code>&lt;fieldset&gt;</code> element
 Nog een voorbeeld van een element zonder veel basis opmaak maar met een duidelijk doel is het <code>&lt;fieldset&gt;</code> element. Zoals de naam het zegt staat het rond een aantal velden (doorgaans in een formulier).
 
 Binnen een <code>&lt;fieldset&gt;</code> element komt bovenaan vaak een <code>&lt;legend&gt;</code> element dat een omschrijving bevat van de velden of van het formulier.
