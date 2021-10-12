@@ -33,6 +33,7 @@ img {
     max-width: 100%;
     display: inherit;
     margin-bottom: 1.5rem;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
 }
 
 quote {
@@ -104,7 +105,8 @@ footer {
 }
 .logo img {
     width: 50%;
-}
+    box-shadow: none;
+} 
 
 .nav>li.active>a, .nav>li.active>a:focus, .nav>li.active>a:hover {
     background-color: #930201;
