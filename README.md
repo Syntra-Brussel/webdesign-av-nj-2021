@@ -4,4 +4,5 @@ Hier kan je de vinden:
 - oefeningen
 - oplossingen
 - documentatie
-- ....
+- inspiratie
+- ...
