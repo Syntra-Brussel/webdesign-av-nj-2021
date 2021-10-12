@@ -25,7 +25,7 @@ De <strong>basis opmaak</strong> van een element is zeer beperkt maar door eleme
 </quote>
 
 <quote>
-Het <code>id</code> en <code>class</code> attribuut van een element zijn belangrijk voor opmaak, voor interactie via Javascript of bv. om een <label> element aanklikbaar te maken.
+Het <code>id</code> en <code>class</code> attribuut van een element zijn belangrijk voor opmaak, voor interactie via Javascript of bv. om een <code>&lt;label&gt;</code> element aanklikbaar te maken.
 </quote>
 
 <quote>
