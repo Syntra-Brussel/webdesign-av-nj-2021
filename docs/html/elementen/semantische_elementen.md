@@ -49,7 +49,7 @@ Bijvoorbeeld:  auteur van het document, copyright informatie, privacy informatie
 &lt;/figure&gt;
 </pre>
 
-Gebruik <figure> als inhoud element (bijvoorbeeld in een <p>-element) en niet als layout element.
+Gebruik <code><figure></code> als inhoud element (bijvoorbeeld in een <code><p></code> element) en niet als layout element.
 
 #### <code><nav></code> element
 <pre data-enlighter-language="html">
