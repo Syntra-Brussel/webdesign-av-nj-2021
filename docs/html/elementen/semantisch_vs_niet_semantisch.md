@@ -23,25 +23,25 @@ Enkele elementen die belangrijk zijn (en die we verderop on dit hoofdstuk nog ve
 
 <ul>
     <li>
-        <code><header></code>
+        <code>&lt;header&gt;</code>
     </li>    
     <li>
-        <code><footer></code>
+        <code>&lt;footer&gt;</code>
     </li>         
     <li>
-        <code><section></code>
+        <code>&lt;section&gt;</code>
     </li>         
     <li>   
-        <code><aside></code>
+        <code>&lt;aside&gt;</code>
     </li>         
     <li>
-        <code><nav></code>
+        <code>&lt;nav&gt;</code>
     </li> 
     <li>
-        <code><article></code>
+        <code>&lt;article&gt;</code>
     </li>         
     <li>
-        <code><figure></code>
+        <code>&lt;figure&gt;</code>
     </li>
     <li>…</li>
 </ul>

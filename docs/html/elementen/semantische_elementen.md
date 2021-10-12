@@ -49,7 +49,7 @@ Bijvoorbeeld:  auteur van het document, copyright informatie, privacy informatie
 &lt;/figure&gt;
 </pre>
 
-Gebruik <code><figure></code> als inhoud element (bijvoorbeeld in een <code><p></code> element) en niet als layout element.
+Gebruik <code>&lt;figure&gt;</code> als inhoud element (bijvoorbeeld in een <code>&lt;p&gt;</code> element) en niet als layout element.
 
 #### <code><nav></code> element
 <pre data-enlighter-language="html">
@@ -60,7 +60,7 @@ Gebruik <code><figure></code> als inhoud element (bijvoorbeeld in een <code><p><
 &lt;/nav&gt;
 </pre>
 
-#### <code>srcset</code> attribuut bij een <code><img></code> element
+#### <code>srcset</code> attribuut bij een <code>&lt;img&gt;</code> element
 Een attribuut dat beelden met een verschillend formaat voorziet voor verschillende scherm breedtes.
 
 De browser bepaalt zelf welk beeld het gaat inladen.
@@ -69,7 +69,7 @@ De browser bepaalt zelf welk beeld het gaat inladen.
 &lt;img srcset=&quot;beeld_w300.jpg w300, beeld_w1000.jpg w1000, beeld_w2000.jpg w2000&quot; src=&quot;beeld.jpg&quot;&gt;
 </pre>
 
-Wanneer srcset niet wordt ondersteund door de browser wordt het beeld uit het src attribuut geladen.
+Wanneer <code>srcset</code> niet wordt ondersteund door de browser wordt het beeld uit het <code>src</code> attribuut geladen.
 
 ### <code><fieldset><code> element
 Nog een voorbeeld van een element zonder veel basis opmaak maar met een duidelijk doel is het <fieldset> element. Zoals de naam het zegt staat het rond een aantal velden (doorgaans in een formulier).
