@@ -16,5 +16,5 @@ collection: [html, elementen]
         <li>Schrijf enkel HTML code: gebruik geen class of style attribuut</li>
     </ul>
 </div>
-
-<img class="shadow" src="{{ '/html/elementen/images/oefening_3.png' | relative_url}}" />
+ 
+<img class="shadow center" src="{{ '/html/elementen/images/oefening_3.png' | relative_url}}" />

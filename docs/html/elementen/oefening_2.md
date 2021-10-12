@@ -18,4 +18,4 @@ collection: [html, elementen]
     </ul>
 </div>
 
-<img class="shadow" src="{{ '/html/elementen/images/oefening_2.png' | relative_url}}" />
+<img class="shadow center" src="{{ '/html/elementen/images/oefening_2.png' | relative_url}}" />
