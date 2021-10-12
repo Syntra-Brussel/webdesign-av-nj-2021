@@ -59,6 +59,10 @@ quote {
     font-size: 24px;
 }
 
+.highlight h3 {
+    color: #FF3521;
+}
+
 .content-right {
     max-width: 1000px;
 }
