@@ -7,9 +7,8 @@ collection: html
 
 ## Introductie
 
-### HTML
 <div class="highlight">
-    <label>HTML</html>
+    <label>HTML</label>
     <ul>
         <li>staat voor Hyper Text Markup Language</li>
         <li>beschrijft de structuur van een webpagina</li>
