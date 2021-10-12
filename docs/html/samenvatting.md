@@ -26,7 +26,7 @@ De <strong>basis opmaak</strong> van een element is zeer beperkt maar door eleme
 
 <quote>
 Het <code>id</code> en <code>class</code> attribuut van een element zijn belangrijk voor opmaak, voor interactie via Javascript of bv. om een <code>&lt;label&gt;</code> element aanklikbaar te maken.
-</quote>
+</quote> 
 
 <quote>
 <strong>Block elementen</strong> nemen standaard de volledige breedte van het scherm in. Inhoud van verschillende elementen verschijnt dus onder mekaar.
