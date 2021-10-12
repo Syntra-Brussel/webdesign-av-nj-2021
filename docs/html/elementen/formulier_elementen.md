@@ -12,11 +12,15 @@ Een hoeksteen van webpagina’s zijn formulieren. Ze bestaan al sinds het begin 
 Formulier elementen worden samen gezet in een <code style="color: blue">&lt;form&gt;</code> element.
 
 Het <code style="color: blue">&lt;form&gt;</code> element heeft enkele belangrijke attributen:
-
-<code style="color: green"><u>action</u></code>: de URL naar waar het formulier gestuurd moet worden voor verwerking
-
-<code style="color: green"><u>method</u></code>: GET (de inhoud van de velden wordt via de URL mee gestuurd), POST (de inhoud van de velden wordt onzichtbaar verstuurd)
-Voor de introductie van HTML5 waren er al heel wat formulier elementen.
+<ul>
+    <li>
+        <code style="color: green"><u>action</u></code>: de URL naar waar het formulier gestuurd moet worden voor verwerking
+    </li>
+    <li>
+        <code style="color: green"><u>method</u></code>: GET (de inhoud van de velden wordt via de URL mee gestuurd), POST (de inhoud van de velden wordt onzichtbaar verstuurd)
+        Voor de introductie van HTML5 waren er al heel wat formulier elementen.
+    </li>
+</ul>
 
 Alle invoer velden moeten binnen <code style="color: blue">&lt;form&gt;</code> en <code style="color: blue">&lt;/form&gt;</code> staan.
 
