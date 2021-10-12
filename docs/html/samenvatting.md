@@ -5,7 +5,7 @@ url: /html/samenvatting
 collection: html
 ---
 
-## Samenvatting
+## {{ page.title }}
 
 <quote>
 <strong>Elementen</strong> zorgen voor het <strong>structureren van inhoud</strong>.

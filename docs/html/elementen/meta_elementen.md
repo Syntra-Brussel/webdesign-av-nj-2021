@@ -5,7 +5,7 @@ url: /html/elementen/meta_elementen
 collection: [html, elementen]
 ---
 
-## Meta elementen
+## {{ page.title }}
 
 <div class="highlight">
     <h3>Meta informatie</h3>

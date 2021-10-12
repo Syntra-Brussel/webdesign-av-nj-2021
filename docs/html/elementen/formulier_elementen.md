@@ -1,11 +1,11 @@
 ---
 layout: template
-title: Attributen
+title: Formulier elementen
 url: /html/elementen/formulier_elementen
 collection: [html, elementen]
 ---
 
-## Formulier elementen
+## {{ page.title }}
 
 Een hoeksteen van webpagina’s zijn formulieren. Ze bestaan al sinds het begin maar sinds de introductie van HTML5 zijn de mogelijkheden grondig uitgebreid.
 

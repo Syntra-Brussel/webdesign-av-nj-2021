@@ -1,11 +1,11 @@
 ---
 layout: template
-title: HTML
+title: 'HTML: Hyper Text Markup Language'
 url: /html
 collection: html
 ---
 
-## HTML: Hyper Text Markup Language
+## {{ page.title }}
 
 In de Webdesign opleiding gebruiken web de webtechnologie om de verschillende fases in software ontwikkeling te bekijken.
 

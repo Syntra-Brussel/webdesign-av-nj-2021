@@ -1,11 +1,11 @@
 ---
 layout: template
-title: Extra eefening 2
+title: 'Extra eefening 2: Business as Usual'
 url: /html/extra_oefeningen/extra_oefening_2
 collection: [html, extra_oefeningen]
 ---
 
-## Extra oefening 2: Business as Usual
+## {{ page.title }}
 
 <div class="highlight">
     <h3>Instructies</h3>

@@ -5,7 +5,7 @@ url: /html/introductie
 collection: html
 ---
 
-## Introductie
+## {{ page.title }}
 
 <div class="highlight">
     <h3>HTML</h3>

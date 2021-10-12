@@ -5,7 +5,7 @@ url: /html/elementen/block_vs_inline_block
 collection: [html, elementen]
 ---
 
-## Block vs. inline-block elementen
+## {{ page.title }}
 
 ### Block element
 

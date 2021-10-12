@@ -4,7 +4,7 @@ title: Semantische elementen
 url: /html/elementen/semantische_elementen
 collection: [html, elementen]
 ---
-## Semantische elementen
+## {{ page.title }}
 
 ### Structurele elementen
 

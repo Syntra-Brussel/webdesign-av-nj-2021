@@ -5,7 +5,7 @@ url: /html/elementen/basis_elementen
 collection: [html, elementen]
 ---
 
-## Basis elementen
+## {{ page.title }}
 
 ### Een paragraaf
 <pre data-enlighter-language="html">

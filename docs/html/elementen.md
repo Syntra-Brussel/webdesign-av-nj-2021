@@ -5,7 +5,7 @@ url: /html/elementen
 collection: [html, elementen]
 ---
 
-## Elementen
+## {{ page.title }}
 
 <div class="highlight">
     <h3>Een html-element</h3>

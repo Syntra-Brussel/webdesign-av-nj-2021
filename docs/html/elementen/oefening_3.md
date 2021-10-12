@@ -5,7 +5,7 @@ url: /html/elementen/oefening_3
 collection: [html, elementen]
 ---
 
-## Oefening 3
+## {{ page.title }}
 
 <div class="highlight">
     <h3>instructies</h3>

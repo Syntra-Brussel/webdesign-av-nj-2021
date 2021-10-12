@@ -1,11 +1,11 @@
 ---
 layout: template
-title: Extra eefening 1
+title: 'Extra eefening 1: Formulier'
 url: /html/extra_oefeningen/extra_oefening_1
 collection: [html, extra_oefeningen]
 ---
 
-## Extra oefening 1: Formulier
+## {{ page.title }}
 
 <div class="highlight">
     <h3>Instructies</h3>

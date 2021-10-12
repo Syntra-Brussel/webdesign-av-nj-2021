@@ -1,6 +1,6 @@
 ---
 layout: template
-title: lementen hebben attributen
+title: Elementen hebben attributen
 url: /html/elementen/attributen
 collection: [html, elementen]
 ---

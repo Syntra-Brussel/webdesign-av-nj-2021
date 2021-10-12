@@ -5,7 +5,7 @@ url: /html/elementen/tabel_element
 collection: [html, elementen]
 ---
 
-## Tabel element
+## {{ page.title }}
 
 <img src="{{ '/html/elementen/images/tabel_html.png' | relative_url}}" />
 
