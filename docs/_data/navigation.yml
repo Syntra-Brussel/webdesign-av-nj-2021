@@ -65,3 +65,9 @@ items:
         title: Samenvatting
       - url: /html/extra_oefening
         title: Extra oefening
+        collection: extra_oefeningen
+        subjects:
+          - url: /html/extra_oefeningen/extra_oefening_1
+            title: 'EXTRA OEFENING 1: formulier'     
+          - url: /html/extra_oefeningen/extra_oefening_2
+            title: 'EXTRA OEFENING 2: Business as Usual'              
