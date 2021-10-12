@@ -1,11 +1,11 @@
 ---
 layout: template
-title: Attributen
+title: lementen hebben attributen
 url: /html/elementen/attributen
 collection: [html, elementen]
 ---
 
-## Attributen
+## {{ page.title }}
 
 Elementen hebben doorgaans attributen om extra eigenschappen aan het element toe te voegen:
 
