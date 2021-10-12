@@ -9,13 +9,13 @@ collection: [html, elementen]
 
 <img src="{{ '/html/elementen/images/tabel_html.png' | relative_url}}" />
 
-Om inhoud in een tabel weer te geven gebruiken we het <span style="color: red">&lt;table&gt;</span> element.
+Om inhoud in een tabel weer te geven gebruiken we het <code><span style="color: red">&lt;table&gt;</span></code> element.
 
-De inhoud die op eenzelfde lijn wordt weergeven wordt opgenomen binnen een <span style="color: blue">&lt;tr&gt;</span> element.
+De inhoud die op eenzelfde lijn wordt weergeven wordt opgenomen binnen een <code><span style="color: blue">&lt;tr&gt;</span></code> element.
 
-Elke kolom binnen een rij wordt weergeven met een <span style="color: green">&lt;td&gt;</span> element.
+Elke kolom binnen een rij wordt weergeven met een <code><span style="color: green">&lt;td&gt;</span></code> element.
 
-### Tabel header
+### Tabel hoofding
 Als de eerste rij binnen het <code>&lt;table&gt;</code> element de hoofding is vervangen we de <code>&lt;td&gt;</code> door <code>&lt;th&gt;</code>.
 
 <pre data-enlighter-language="html">
