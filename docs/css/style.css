@@ -108,6 +108,7 @@ footer {
 
 .shadow {
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    padding: 1rem;
 }
 
 .nav>li.active>a, .nav>li.active>a:focus, .nav>li.active>a:hover {
