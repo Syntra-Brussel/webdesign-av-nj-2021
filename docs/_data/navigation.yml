@@ -1,73 +1,103 @@
 items:
   - url: /git  
+    available: 1
     collection: git  
     title: 'GIT'
     topics:
       - url: /git/installeren
+        available: 1
         collection: git_installeren
         title: 'GIT installeren'
         subjects:
-          - url: /git/installeren/github_service        
+          - url: /git/installeren/github_service   
+            available: 1     
             title: 'Github service'
           - url: /git/installeren/github_client
-            title: 'Github client'          
+            available: 1     
+            title: 'Github client'  
       - url: /git/belangrijkste_termen
+        available: 1     
         title: 'Belangrijkste termen'
-      - url: /git/werken_met_repository     
+      - url: /git/werken_met_repository   
+        available: 1  
         collection: werken_met_repository
         title: 'Werken met een repository'
         subjects:
-          - url: /git/werken_met_repository/bestaande        
+          - url: /git/werken_met_repository/bestaande  
+            available: 1      
             title: 'Bestaande repository'
           - url: /git/werken_met_repository/nieuwe
+            available: 1
             title: 'Nieuwe repository'            
       - url: /git/stappen
+        available: 1
         title: 'De stappen in het GIT proces'
       - url: /git/conflicten
+        available: 1
         title: 'Conflicten'
   - url: /html
+    available: 1
     collection: html
     title: 'HTML'
     topics:
       - url: /html/introductie
+        available: 1
         title: Introductie
-      - url: /html/elementen      
+      - url: /html/elementen    
+        available: 1  
         collection: elementen
         title: Elementen
         subjects:
           - url: /html/elementen/openen_sluiten
+            available: 1
             title: 'Elementen openen en weer sluiten'
           - url: /html/elementen/attributen
+            available: 1
             title: 'Elementen hebben attributen'
           - url: /html/elementen/meta_elementen
+            available: 1
             title: 'Meta elementen'            
           - url: /html/elementen/basis_elementen
+            available: 1
             title: 'Basis elementen voor inhoud'
           - url: /html/elementen/oefening_1
+            available: 1
             title: 'OEFENING 1: basis elementen'            
           - url: /html/elementen/tabel_element
+            available: 1
             title: 'Tabel element'
           - url: /html/elementen/oefening_2
+            available: 1
             title: 'OEFENING 2: Factuur'
           - url: /html/elementen/formulier_elementen
+            available: 1
             title: 'Formulier elementen'
           - url: /html/elementen/oefening_3
+            available: 1
             title: 'OEFENING 3: Sollicitatieformulier'            
           - url: /html/elementen/semantisch_vs_niet_semantisch
+            available: 1
             title: 'Niet-semantische vs. semantische elementen'
           - url: /html/elementen/semantische_elementen
+            available: 0
             title: 'Semantische elementen'  
           - url: /html/elementen/block_vs_inline_block
+            available: 0
             title: 'Block elementen vs. inline-block elementen'
           - url: /html/elementen/oefening_4
+            available: 0
             title: 'OEFENING 4: Obelisk startpagina'                                 
       - url: /html/samenvatting
+        available: 0
         title: Samenvatting
       - url: /html/extra_oefening
+        available: 0
         title: Extra oefening
         collection: extra_oefeningen
         subjects:
           - url: /html/extra_oefeningen/extra_oefening_1
+            available: 0
             title: 'EXTRA OEFENING 1: formulier'     
           - url: /html/extra_oefeningen/extra_oefening_2
+            available: 0
             title: 'EXTRA OEFENING 2: Business as Usual'              
