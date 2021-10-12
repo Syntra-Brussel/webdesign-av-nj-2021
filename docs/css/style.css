@@ -116,8 +116,9 @@ footer {
 }
 
 .nav>li.active>a, .nav>li.active>a:focus, .nav>li.active>a:hover {
-    background-color: #930201;
-    color: #FFF!important;
+    background-color: #C0C0C0;
+    border-left: #000 2px solid;
+    color: #000!important;
 } 
 
 ul.nav ul,
