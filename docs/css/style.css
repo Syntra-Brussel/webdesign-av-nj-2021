@@ -32,8 +32,7 @@ h1, h2 {
 img {
     max-width: 100%;
     display: inherit;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    margin-bottom: 1.5rem;   
 }
 
 quote {
@@ -107,8 +106,8 @@ footer {
     width: 50%;
 } 
 
-.no-shadow {
-    box-shadow: none;
+.shadow {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
 }
 
 .nav>li.active>a, .nav>li.active>a:focus, .nav>li.active>a:hover {
