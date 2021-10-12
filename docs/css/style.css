@@ -115,10 +115,14 @@ footer {
     margin: auto;
 }
 
+.nav>li a {
+    color: #000;
+}
+
 .nav>li.active>a, .nav>li.active>a:focus, .nav>li.active>a:hover {
-    background-color: #C0C0C0;
+    background-color: #E0E0E0;
     border-left: #000 2px solid;
-    color: #000!important;
+    color: #930201!important;
 } 
 
 ul.nav ul,
