@@ -7,11 +7,11 @@ collection: [html, elementen]
 
 ## Meta elementen
 
-### Meta informatie
 <div class="highlight">
-Meta informatie geeft informatie over informatie, in dit geval het HTML-document.
+    <h3>Meta informatie</h3>
+    Meta informatie geeft informatie over informatie, in dit geval het HTML-document.
 
-Je zal meta informatie nooit zien op de webpagina zelf maar deze data wordt wel verwerkt door de browser en de zoekmachine.
+    Je zal meta informatie nooit zien op de webpagina zelf maar deze data wordt wel verwerkt door de browser en de zoekmachine.
 </div>
 
 

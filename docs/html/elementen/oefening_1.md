@@ -8,7 +8,7 @@ collection: [html, elementen]
 ## Oefening 1
 
 <div class="highlight">
-    <label>instructies</label>
+    <h3>Instructies</h3>
     <ul>
         <li>maak een folder html aan</li>
         <li>maak een bestand met de naam oefening_1.html aan</li>

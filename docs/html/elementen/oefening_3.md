@@ -8,7 +8,7 @@ collection: [html, elementen]
 ## Oefening 3
 
 <div class="highlight">
-    <label>instructies</label>
+    <h3>instructies</h3>
     <ul>
         <li>maak in de html folder een bestand met de naam oefening_3_sollicitatieformulier.html aan</li>
         <li>Schrijf de HTML code voor het sollicitatie formulier</li>
