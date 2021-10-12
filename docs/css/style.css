@@ -91,14 +91,6 @@ footer {
     padding: 15px;
 }
 
-/* On small screens, set height to 'auto' for sidenav and grid */
-@media screen and (max-width: 767px) {
-    .sidenav {
-    height: auto;
-    padding: 15px;
-    }
-    .row.content {height: auto;} 
-}
 
 .logo {
     display: flex;
@@ -114,12 +106,19 @@ footer {
     color: #FFF!important;
 } 
 
-
-
-
 ul.nav ul,
 ul.nav ul ul,
 ul.nav ul ul ul {
     margin-left: 15px!important;
     border-left: #C0C0C0 1px solid!important;
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+    height: auto;
+    padding: 15px;
+    }
+    .row.content {height: auto;} 
 }
