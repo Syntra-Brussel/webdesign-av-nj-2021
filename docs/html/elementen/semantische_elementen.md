@@ -48,7 +48,7 @@ Bijvoorbeeld:  auteur van het document, copyright informatie, privacy informatie
   &lt;figcaption&gt;Storm Ciara zorgt voor veel schade in Antwerpen&lt;/figcaption&gt; 
 &lt;/figure&gt;
 </pre>
-
+ 
 Gebruik <code>&lt;figure&gt;</code> als inhoud element (bijvoorbeeld in een <code>&lt;p&gt;</code> element) en niet als layout element.
 
 #### <code><nav></code> element
