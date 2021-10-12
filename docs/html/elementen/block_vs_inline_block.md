@@ -37,6 +37,7 @@ Zonder specifieke opmaak neem een block element de volledige breedte van het sch
 <li><code>&lt;table&gt;</code></li>
 <li><code>&lt;ul&gt;</code></li>
 <li><code>&lt;video&gt;</code></li>
+</ul>
 
 ### Inline-block element
 
