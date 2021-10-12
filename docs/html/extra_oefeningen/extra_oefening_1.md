@@ -12,7 +12,7 @@ collection: [html, extra_oefeningen]
     <ul>
         <li>maak in de html folder een bestand met de naam extra_oefening_1.html aan</li>
         <li>Schrijf de HTML code voor het formulier</li>
-        <li>Opgelet: gebruik géén table element. Het opmaken (via class of style attribuut) is nog niet nodig</li>
+        <li>Opgelet: gebruik <strong>geen</strong> table element. Het opmaken (via class of style attribuut) is nog niet nodig</li>
     </ul>
 </div>
 
