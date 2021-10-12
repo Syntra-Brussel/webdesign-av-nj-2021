@@ -15,8 +15,8 @@ De inhoud die op eenzelfde lijn wordt weergeven wordt opgenomen binnen een <span
 
 Elke kolom binnen een rij wordt weergeven met een <span style="color: green">&lt;td&gt;</span> element.
 
-
-Als de eerste rij binnen het <table> element de hoofding is vervangen we de <code>&lt;td&gt;</code> door <code>&lt;th&gt;</code>.
+### Tabel header
+Als de eerste rij binnen het <code>&lt;table&gt;</code> element de hoofding is vervangen we de <code>&lt;td&gt;</code> door <code>&lt;th&gt;</code>.
 
 <pre data-enlighter-language="html">
 &lt;table border=&quot;1&quot; width=&quot;100%&quot;&gt;
@@ -42,6 +42,8 @@ Als de eerste rij binnen het <table> element de hoofding is vervangen we de <cod
   &lt;/tr&gt; 
 &lt;/table&gt;
 </pre>
+
+### Kolommen samenvoegen
 Je kan ook meerdere kolommen samenvoegen via het attribuut colspan:
 
 
@@ -61,6 +63,7 @@ Je kan ook meerdere kolommen samenvoegen via het attribuut colspan:
 
 <img src="{{ '/html/elementen/images/colspan.png' | relative_url}}" />
 
+### Rijen samenvoegen
 Je kan ook meerdere rijen samenvoegen via het attribuut rowspan:
 
 <pre data-enlighter-language="html">
