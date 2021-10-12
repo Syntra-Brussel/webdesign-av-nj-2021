@@ -9,15 +9,15 @@ collection: [html, elementen]
 
 Een hoeksteen van webpagina’s zijn formulieren. Ze bestaan al sinds het begin maar sinds de introductie van HTML5 zijn de mogelijkheden grondig uitgebreid.
 
-Formulier elementen worden samen gezet in een <span style="color: blue">&lt;form&gt;</span> element.
+Formulier elementen worden samen gezet in een <code style="color: blue">&lt;form&gt;</code> element.
 
-Het <span style="color: blue">&lt;form&gt;</span> element heeft enkele belangrijke attributen:
+Het <code style="color: blue">&lt;form&gt;</code> element heeft enkele belangrijke attributen:
 
-<span style="color: green"><u>action</u></span>: de URL naar waar het formulier gestuurd moet worden voor verwerking
-<span style="color: green"><u>method</u></span>: GET (de inhoud van de velden wordt via de URL mee gestuurd), POST (de inhoud van de velden wordt onzichtbaar verstuurd)
+<code style="color: green"><u>action</u></code>: de URL naar waar het formulier gestuurd moet worden voor verwerking
+<code style="color: green"><u>method</u></code>: GET (de inhoud van de velden wordt via de URL mee gestuurd), POST (de inhoud van de velden wordt onzichtbaar verstuurd)
 Voor de introductie van HTML5 waren er al heel wat formulier elementen.
 
-Alle invoer velden moeten binnen <span style="color: blue">&lt;form&gt;</span> en <span style="color: blue">&lt;form&gt;</span> staan.
+Alle invoer velden moeten binnen <code style="color: blue">&lt;form&gt;</code> en <code style="color: blue">&lt;/form&gt;</code> staan.
 
 <img src="{{ '/html/elementen/images/form_html.png' | relative_url}}" />
 
