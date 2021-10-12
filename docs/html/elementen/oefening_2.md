@@ -1,6 +1,6 @@
 ---
 layout: template
-title: Oefening 2
+title: 'Oefening 2: Factuur'
 url: /html/elementen/oefening_2
 collection: [html, elementen]
 ---

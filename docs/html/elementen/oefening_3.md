@@ -1,6 +1,6 @@
 ---
 layout: template
-title: Oefening 3
+title: 'Oefening 3: Sollicitatieformulier'
 url: /html/elementen/oefening_3
 collection: [html, elementen]
 ---

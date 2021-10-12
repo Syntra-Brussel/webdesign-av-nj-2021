@@ -1,6 +1,6 @@
 ---
 layout: template
-title: Basis elementen
+title: Basis elementen voor inhoud
 url: /html/elementen/basis_elementen
 collection: [html, elementen]
 ---

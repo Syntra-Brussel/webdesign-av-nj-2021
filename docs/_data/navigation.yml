@@ -76,7 +76,7 @@ items:
             available: 1
             title: 'OEFENING 3: Sollicitatieformulier'            
           - url: /html/elementen/semantisch_vs_niet_semantisch
-            available: 1
+            available: 0
             title: 'Niet-semantische vs. semantische elementen'
           - url: /html/elementen/semantische_elementen
             available: 0
