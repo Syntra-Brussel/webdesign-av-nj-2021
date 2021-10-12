@@ -105,8 +105,11 @@ footer {
 }
 .logo img {
     width: 50%;
-    box-shadow: none;
 } 
+
+.no-shadow {
+    box-shadow: none;
+}
 
 .nav>li.active>a, .nav>li.active>a:focus, .nav>li.active>a:hover {
     background-color: #930201;
