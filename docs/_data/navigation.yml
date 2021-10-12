@@ -55,7 +55,7 @@ items:
             title: 'OEFENING 3: Sollicitatieformulier'            
           - url: /html/elementen/semantisch_vs_niet_semantisch
             title: 'Niet-semantische vs. semantische elementen'
-          - url: /html/elementen/semantisch_elementen
+          - url: /html/elementen/semantische_elementen
             title: 'Semantische elementen'  
           - url: /html/elementen/block_vs_inline_block
             title: 'Block elementen vs. inline-block elementen'
