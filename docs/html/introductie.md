@@ -9,20 +9,21 @@ collection: html
 
 ### HTML
 <div class="highlight">
-<ul>
-    <li>staat voor Hyper Text Markup Language</li>
-    <li>beschrijft de structuur van een webpagina</li>
-    <li>bestaat uit een serie van elementen (= tags)</li>
-    <li>vertelt aan een browser welke inhoud getoond moet worden, de browser zorgt voor héél beperkte opmaak</li>
-    <li>dient als basis voor het mooi maken van een webpagina (layout, kleuren, animatie) = CSS</li>
-    <li>zorgt dat een zoekmachine de inhoud kan begrijpen</li>
-    <li>tags beschrijven:
-        <ul>
-            <li>inhoud (een titel, een beeld, een paragraaf, een link, een tabel, een formulier,…).</li>
-            <li>onderdelen in een webpagina (een header, een footer, een navigatie, …)</li>
-        </ul>
-    </li>
-</ul>
+    <label>HTML</html>
+    <ul>
+        <li>staat voor Hyper Text Markup Language</li>
+        <li>beschrijft de structuur van een webpagina</li>
+        <li>bestaat uit een serie van elementen (= tags)</li>
+        <li>vertelt aan een browser welke inhoud getoond moet worden, de browser zorgt voor héél beperkte opmaak</li>
+        <li>dient als basis voor het mooi maken van een webpagina (layout, kleuren, animatie) = CSS</li>
+        <li>zorgt dat een zoekmachine de inhoud kan begrijpen</li>
+        <li>tags beschrijven:
+            <ul>
+                <li>inhoud (een titel, een beeld, een paragraaf, een link, een tabel, een formulier,…).</li>
+                <li>onderdelen in een webpagina (een header, een footer, een navigatie, …)</li>
+            </ul>
+        </li>
+    </ul>
 </div>
 
 ### HTML is een meta taal
