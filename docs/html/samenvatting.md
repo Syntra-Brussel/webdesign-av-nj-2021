@@ -12,7 +12,7 @@ collection: html
 </quote>
 
 <quote>
-Semantische elementen maken de HTML <strong>code beter leesbaar voor machines</code> (bv. Google).
+Semantische elementen maken de HTML <strong>code beter leesbaar voor machines</strong> (bv. Google).
 </quote>
 
 <quote>
