@@ -2,7 +2,7 @@
 layout: template
 title: Extra oefening
 url: /html/extra oefening
-collection: html
+collection: [html, extra_oefeningen]
 ---
 
 ## Extra oefening
