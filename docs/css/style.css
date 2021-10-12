@@ -67,10 +67,12 @@ quote {
 
 .content-right {
     max-width: 1000px;
-    padding-left: 30px;
 }
+
+.content-right,
 .sidenav {
     padding-right: 30px;
+    padding-left: 30px;
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
