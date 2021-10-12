@@ -6,3 +6,18 @@ collection: [html, extra_oefeningen]
 ---
 
 ## Extra oefening 2: Business as Usual
+
+<div class="highlight">
+    <h3>Instructies</h3>
+    <ul>
+        <li>maak in de html folder een bestand met de naam extra_oefening_2.html aan</li>
+        <li>Schrijf de HTML code voor het pagina hieronder
+Structuur met de correcte (semantische) elementen</li>
+        <li>Opgelet: gebruik géén table element. Het opmaken (via class of style attribuut) is nog niet nodig</li>
+        <li>Schrijf enkel HTML code: gebruik geen class of style attribuut
+De beelden kan je vinden op mijn GIT repository: https://github.com/VDAB-VSA/vsa-heverlee-nj2020</li>
+    </ul>
+</div>
+
+
+<img class="shadow center" src="{{ '/html/extra_oefeningen/images/extra_oefening_2.png' | relative_url}}" />

@@ -6,3 +6,14 @@ collection: [html, extra_oefeningen]
 ---
 
 ## Extra oefening 1: Formulier
+
+<div class="highlight">
+    <h3>Instructies</h3>
+    <ul>
+        <li>maak in de html folder een bestand met de naam extra_oefening_1.html aan</li>
+        <li>Schrijf de HTML code voor het formulier</li>
+        <li>Opgelet: gebruik géén table element. Het opmaken (via class of style attribuut) is nog niet nodig</li>
+    </ul>
+</div>
+
+<img class="shadow center" src="{{ '/html/extra_oefeningen/images/extra_oefening_1.png' | relative_url}}" />
