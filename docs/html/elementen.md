@@ -8,7 +8,7 @@ collection: [html, elementen]
 ## Elementen
 
 <div class="highlight">
-    ### Een html-element
+    <h3>Een html-element</h3>
     <ul>
         <li>geeft context aan inhoud</li>
         <li>geeft structuur aan inhoud</li>
