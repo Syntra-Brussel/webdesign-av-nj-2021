@@ -41,7 +41,7 @@ Bijvoorbeeld:  auteur van het document, copyright informatie, privacy informatie
 
 ### Andere semantische elementen
 
-#### <code><figure></code> en <code><figcaption></code> elementen
+#### <code>&lt;figure&gt;</code> en <code>&lt;figcaption&gt;</code> elementen
 <pre data-enlighter-language="html">
 &lt;figure&gt; 
   &lt;img src=&quot;storm_ciara_zorgt_voor_veel_schade.jpg&quot; alt=&quot;Storm Ciara zorgt voor veel schade&quot;&gt; 
