@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Formulier elementen</title>
+    </head>
+    <body>
+        <form action="" method="POST">
+            <ul type="none">
+                <li>
+                    <input type="text" required placeholder="Voer een tekst in" />
+                </li>
+                <li>
+                    <input type="email" required placeholder="Voer een e-mailadres in" />
+                </li>
+                <li>
+                    <input type="date" />
+                </li>
+                <li>
+                    <select required name="auto"> 
+                        <option value="">Maak je selectie</option>
+                        <option value="volvo">Volvo</option> 
+                        <option selected value="saab">Saab</option> 
+                        <option value="fiat">Fiat</option> 
+                        <option value="audi">Audi</option> 
+                    </select>
+                </li>
+                <li>
+                    <ul type="none">
+                        <li>
+                            <input type="radio" id="optie_1" name="optie" value="Optie 1"> 
+                            <label for="optie_1">Dit is optie 1</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="optie_2" name="optie" value="Optie 2"> 
+                            <label for="optie_2">Dit is optie 2</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="optie_3" name="optie" value="Optie 3"> 
+                            <label for="optie_3">Dit is optie 3</label>
+                        </li>
+                    </ul>   
+                </li>
+                <li>
+                    <ul type="none">
+                        <li>
+                            <input type="checkbox" id="optie_1" name="optie_1" value="Optie 1"> 
+                            <label for="optie_1">Dit is optie 1</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="optie_2" name="optie_2" value="Optie 2"> 
+                            <label for="optie_2">Dit is optie 2</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="optie_3" name="optie_3" value="Optie 3"> 
+                            <label for="optie_3">Dit is optie 3</label>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="submit" value="Verstuur" />
+                </li>
+        </form>
+    </body>
+</html>
