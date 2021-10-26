@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Oefening 3: Sollicitatieformulier</title>   
+</head>
+
+<body>
+
+	<h1>Sollicitatieformulier</h1>
+
+	<form action="oefening_3.html" enctype="multipart/form-data" method="post">
+    
+    <ul type="none">
+    	<li> 
+            <label>Aanspreektitel</label> 
+            <ul type="none">
+                <li>
+                    <input type="radio" name="meneer" id="meneer" value="meneer" checked> 
+                    <label for="meneer">Meneer</label>
+                </li>
+                <li>
+                    <input type="radio" name="mevrouw" id="mevrouw" value="mevrouw"> 
+                    <label for="land">Mevrouw</label>
+                </li>
+            </ul>
+        </li>
+        
+        <li>
+        	<label for="voornaam">Voornaam  <span>*</span></label> 
+            <input required type="text" name="voornaam" id="voornaam" placeholder="uw voornaam">
+        </li>
+        
+        <li>
+        	<label for="naam">Naam  <span>*</span></label> 
+            <input required type="text" name="naam" id="naam" placeholder="uw naam">
+        </li>
+        
+        <li>
+        	<label for="adres">Adres</label> 
+            <input type="text" name="adres" id="adres" placeholder="uw adres">
+        </li>
+        
+        <li>
+        	<label for="plaats">Plaats</label> 
+            <input type="text" name="postcode" id="postcode" placeholder="uw postcode"> 
+            <input type="text" name="plaats" id="plaats" placeholder="uw plaats">
+        </li>
+        
+        <li>
+            <label for="land"> Land <span>*</span></label>
+            <select required name="land" id="land">
+                <option value="" selected>Maak je selectie...</option>
+                <option value="België">Belgie</option>
+                <option value="Nederland">Nederland</option>
+            </select>
+        </li>
+ 
+        <li>
+        	<label for="mail">e-mail <span>*</span></label> 
+            <input required type="email" name="mail" id="mail" placeholder="uw email">
+        </li>
+        
+        <li>
+        	<label for="adres">geboortedatum</label> 
+            <input type="date" name="geboortedatum" id="geboortedatum" placeholder="uw geboortedatum">
+        </li>
+        
+        <li>
+        	<label for="gsm">gsm</label> 
+            <input type="text" name="gsm" id="gsm" placeholder="uw gsm">
+        </li>
+        <li>
+            <hr />
+        </li>
+    	<li>
+        	<label for="cv">CV</label> 
+            <input type="file" name="cv" id="cv" placeholder="uw cv">
+        </li>
+        
+        <li>
+        	<label for="motivatie">Motivatie</label> 
+            <textarea type="text" name="motivatie" id="motivatie" placeholder="uw motivatie"></textarea>
+        </li> 
+
+        <li>
+            <input type="submit" value="Solliciteer!" id="submitbutton">
+        </li>
+	</ul>
+    <p>
+        Velden met een * zijn verplicht.
+    </p>
+    </form>
+</body>
+</html>
