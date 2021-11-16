@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Extra oefening 1: Formulier</title>
+    </head>
+    <body>
+        
+        <h1>Formulieren</h1>
+        
+        <form action="" method="POST">
+            <fieldset>
+                <legend>Login-gegevens</legend>
+                <ul>
+                    <li>
+                        <label for="naam">Naam</label>
+                        <input type="text" id="naam" name="naam" tabindex="1" accesskey="m">
+                    </li>
+                    <li>
+                        <label for="paswoord">Paswoord</label>
+                        <input type="password" id="paswoord" name="paswoord" tabindex="2">
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Bestel-gegevens</legend>
+                <ul>
+                    <li>
+                        <div>Selecteer je magazine :</div>
+                        <ul type="none">
+                            <li><input type="checkbox" id="humo" name="magazine" value="humo" tabindex="3"> <label for="humo">HUMO</label></li>
+                            <li><input type="checkbox" id="trends" name="magazine" value="trends" tabindex="4"> <label for="trends">Trends</label></li>
+                            <li><input type="checkbox" id="libelle" name="magazine" value="libelle" tabindex="5"> <label for="libelle">Libelle</label></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div>Met welke webbrowser surf je :</div>
+                        <ul type="none">
+                            <li><input type="radio" id="chrome" name="webbrowser" value="chrome" tabindex="6"> <label for="chrome">Google Chrome</label></li>
+                            <li><input type="radio" id="firefox" name="webbrowser" value="firefox" tabindex="7"> <label for="firefox">Firefox</label></li>
+                            <li><input type="radio" id="opera" name="webbrowser" value="opera" tabindex="8"> <label for="opera">Opera</label></li>
+                        </ul>                                
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Extra informatie</legend>
+                <ul>
+                    <li>
+                        <label for="verzending">Verzending :</label>
+                        <div>
+                            <select name="verzending" id="verzending" multiple size="2" tabindex="9">
+                                <option disabled selected>Maak hier je keuze...</option>
+                                <option value="DHL">DHL</option>
+                                <option value="Post">Post</option>
+                                <option value="Paard">Paard en kar</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="vragen">Heb je vragen?</label>
+                        <div>
+                            <textarea id="vragen" name="vragen" cols="30" rows="10" placeholder="Vul hier je vraag in..." tabindex="10"></textarea>
+                        </div>
+                    </li>
+                </ul>
+            </fieldset>
+            <div>
+                <input type="submit" value="Bestellen" tabindex="11">
+                <input type="reset" value="Wissen" tabindex="12">
+            </div>
+        </form>
+        
+                 
+    </body>
+</html>
+
+
+
+
+
