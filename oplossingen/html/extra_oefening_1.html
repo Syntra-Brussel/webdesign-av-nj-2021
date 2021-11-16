@@ -25,15 +25,15 @@
                 <legend>Bestel-gegevens</legend>
                 <ul>
                     <li>
-                        <div>Selecteer je magazine :</div>
+                        <label>Selecteer je magazine :</label>
                         <ul type="none">
-                            <li><input type="checkbox" id="humo" name="magazine" value="humo" tabindex="3"> <label for="humo">HUMO</label></li>
-                            <li><input type="checkbox" id="trends" name="magazine" value="trends" tabindex="4"> <label for="trends">Trends</label></li>
-                            <li><input type="checkbox" id="libelle" name="magazine" value="libelle" tabindex="5"> <label for="libelle">Libelle</label></li>
+                            <li><input type="checkbox" id="humo" name="humo" value="humo" tabindex="3"> <label for="humo">HUMO</label></li>
+                            <li><input type="checkbox" id="trends" name="trends" value="trends" tabindex="4"> <label for="trends">Trends</label></li>
+                            <li><input type="checkbox" id="libelle" name="libelle" value="libelle" tabindex="5"> <label for="libelle">Libelle</label></li>
                         </ul>
                     </li>
                     <li>
-                        <div>Met welke webbrowser surf je :</div>
+                        <label>Met welke webbrowser surf je :</label>
                         <ul type="none">
                             <li><input type="radio" id="chrome" name="webbrowser" value="chrome" tabindex="6"> <label for="chrome">Google Chrome</label></li>
                             <li><input type="radio" id="firefox" name="webbrowser" value="firefox" tabindex="7"> <label for="firefox">Firefox</label></li>
@@ -47,20 +47,16 @@
                 <ul>
                     <li>
                         <label for="verzending">Verzending :</label>
-                        <div>
-                            <select name="verzending" id="verzending" multiple size="2" tabindex="9">
-                                <option disabled selected>Maak hier je keuze...</option>
-                                <option value="DHL">DHL</option>
-                                <option value="Post">Post</option>
-                                <option value="Paard">Paard en kar</option>
-                            </select>
-                        </div>
+                        <select name="verzending" id="verzending" tabindex="9">
+                            <option disabled selected>Maak hier je keuze...</option>
+                            <option value="DHL">DHL</option>
+                            <option value="Post">Post</option>
+                            <option value="Paard">Paard en kar</option>
+                        </select>
                     </li>
                     <li>
                         <label for="vragen">Heb je vragen?</label>
-                        <div>
-                            <textarea id="vragen" name="vragen" cols="30" rows="10" placeholder="Vul hier je vraag in..." tabindex="10"></textarea>
-                        </div>
+                        <textarea id="vragen" name="vragen" cols="30" rows="10" placeholder="Vul hier je vraag in..." tabindex="10"></textarea>
                     </li>
                 </ul>
             </fieldset>
