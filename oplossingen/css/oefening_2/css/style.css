@@ -1,0 +1,58 @@
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header,
+footer,
+main {
+    padding: 20px;
+}
+
+footer,
+header {
+    text-align: center;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+article img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article p {
+    margin-top: 0;
+}
+
+nav a {
+    padding: 10px;
+}
+
+nav a.active {
+    background-color: #C0C0C0;
+    color: #FFF;
+}
+
+#socials {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+} 
+
+#socials li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#disclaimer {
+    text-align: center;
+    margin-top: 20px;
+}

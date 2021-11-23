@@ -1,0 +1,28 @@
+/* deze opmaak is van toepassing op het volledige document */
+body {
+    font-family: Verdana;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: black;
+}
+
+p {
+    color: blue;
+}
+
+p strong {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.titel {
+    font-size: 20px;
+}

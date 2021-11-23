@@ -1,0 +1,42 @@
+body {
+    background-color: rgb( 180, 220, 200 ); 
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    border-radius: 40px;
+    background-image: url(http://smashingyolo.com/wp-content/uploads/2014/05/Best-Website-Background-Images12.jpg);
+    color: white;
+    padding: 20px;
+    padding-top: 100px;
+    height: 50px;
+    border: 10px dotted #FC0;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.6;
+    font-size: 12px;
+    background-color: white;
+}
+
+.centreer {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.rood { 
+    color: red; 
+}
+
+.grote-letter { 
+    font-size: 60px; 
+}
+
+#inleiding {
+    background-color: #FC0;
+    font-size: 20px;
+}
