@@ -1,0 +1,19 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* maak boxed en gecentreerd */
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.flex-container div {
+    background-color: white;
+    color: black;
+    width: 33.33%;
+    padding: 10px;
+    /* zorg dat padding mee in de breedte van de div wordt genomen */
+    box-sizing: border-box;
+}
