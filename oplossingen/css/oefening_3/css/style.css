@@ -1,0 +1,23 @@
+h2 {
+    margin: 0;
+}
+
+article img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container article {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.flex-container article img {
+    width: 100%;
+}

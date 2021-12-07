@@ -1,0 +1,51 @@
+body {
+    background-color: #CCC;
+}
+
+.outer-container {
+    max-width:  1200px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #CEB89D;
+}
+
+.flex-container {
+    display: flex;
+}
+
+nav {
+    background-color: #269BCA;
+}
+
+main {
+    background-color: #FFF;
+    width: 60%;
+}
+
+aside {
+    background-color: #03506E;
+} 
+
+nav, aside {
+    width: 20%;
+}
+
+footer {
+    background-color: #343204;
+}
+
+header, footer {
+    height: 100px;
+}
+
+nav, main, aside {
+    height: 600px
+}
