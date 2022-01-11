@@ -1,0 +1,12 @@
+/* CSS van toepassing bij een scherm >= aan 600px */
+@media (min-width: 600px) {
+    section {
+        display: flex;
+    }
+
+    section article {
+        width: 33.33%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+}
