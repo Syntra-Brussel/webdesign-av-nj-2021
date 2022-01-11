@@ -1,15 +1,11 @@
 /* CSS werd overgenomen van http://labs.qnimate.com/slider/... enkel breedtes/hoogtes zijn aangepast */
 .slider-holder
 {
-    width: 253px;
-    height: 150px;
-    background-color: yellow;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
     text-align: center;
     overflow: hidden;
-    float: right;
 }
 
 .image-holder img {
