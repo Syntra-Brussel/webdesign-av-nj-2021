@@ -29,9 +29,14 @@ html {
     width: 100%;
 } 
 
-#intro {
-    align-items: center;
+#intro_tekst {
+    width: 60%;
 }
+
+#intro_beeld {
+    width: 40%;
+}
+
 
 /* header */
 header {
