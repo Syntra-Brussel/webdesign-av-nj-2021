@@ -1,0 +1,66 @@
+/* CSS altijd van toepassing */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;    
+}
+
+#logo {
+    width: 20%;
+    padding: 10px;
+    align-self: center; /* ga "stretchen" van beeld tegen */
+}
+
+#banner,
+article img {
+    width: 100%;
+}
+
+footer {
+    background-color: #B7B7B9;
+    color: #FFF;
+    padding: 10px;
+}
+
+/* CSS van toepassing bij een scherm breedte >= 700px */
+@media (min-width: 700px) {
+    header {
+        justify-content: left;       
+    }
+ 
+    header #logo {
+        padding: 30px;
+    }
+
+    #articles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    article {
+        width: 50%;
+        padding: 30px;
+    }
+}
+
+/* CSS van toepassing bij een scherm breedte >= 1000px */
+@media (min-width: 1000px) {
+    .boxed {
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+    article {
+        width: 33.33%;
+    }
+}
