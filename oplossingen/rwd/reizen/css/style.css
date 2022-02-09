@@ -1,0 +1,315 @@
+/* general CSS */
+
+body { 
+	font: 16px Ubuntu, Arial, sans-serif;
+	line-height: 20px;
+	color: white;
+	background: black;
+}
+
+a { 
+	color: white;
+	text-decoration: none; 
+}
+
+a:hover { text-decoration: underline; }
+
+img { width: 100%; }
+ 
+.boxed {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+/* .banner -------------------------------------- */
+.banner {
+	text-align: center;
+	background-image: url('../images/slider1.jpg');
+	padding: 50px 0;
+}
+
+.banner h2 { font: 500 4.5em/1 Ubuntu, Arial, sans-serif; }
+.banner h3 { font: 300 1.5em/1 Ubuntu, Arial, sans-serif; }
+
+@media screen and (min-width: 850px) {
+    .banner div { 
+		padding: 150px 0;
+	}
+    
+    .banner h2 { font-size: 6em; }
+    .banner h3 { font-size: 2em; }
+}
+
+@media screen and (min-width: 1170px) {
+    .banner {
+		text-align: left;
+    }
+    
+    .banner div { 
+        padding-left: 20px;
+    } 
+    
+    .banner h2 { font-size: 12em; }
+    .banner h3 { font-size: 3em; }
+}
+
+/* header -------------------------------------- */
+
+header {
+	background: white;
+}
+
+header nav {
+	padding: 20px 20px 0;
+    display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+	
+header nav ul {
+	display: flex;
+	justify-content: center;
+}
+
+header nav ul a { 
+	display: inline-block;
+	font: 400 1.1em/1 Ubuntu, Arial, sans-serif; 
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-bottom: 0;
+	padding: 20px 0;
+	margin: 0 15px;
+	height: 70px;
+}
+
+header nav ul a:hover { border-bottom: 4px solid black; }
+
+header a { color: black; }
+header a:hover { text-decoration: none; }
+
+header h1 { font: 500 4.8em/1 Ubuntu, Arial, sans-serif; }
+
+@media screen and (min-width: 850px) {
+    header nav { 
+        padding: 40px 40px 0; 
+        text-align: center;
+		flex-direction: row;
+		justify-content: space-between;
+    }
+    
+	header nav ul { padding-top: 17px; }
+
+    header h1 { padding-bottom: 40px; }
+	header nav ul a { 
+        padding-bottom: 60px; 
+        margin: 0 0 0 30px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1170px) {
+	header { text-align: left; }
+    
+    header h1 { 
+        margin-bottom: 0; 
+    }
+}
+
+/* #reizen -------------------------------------- */
+
+#reizen {
+	background-image: url('../images/slider1.jpg');
+}
+ 
+/* Landen ------------------------------------------------- */
+
+#landen { padding: 20px; }
+
+#landen article { margin-bottom: 40px; }
+
+#landen h2 { 
+    font: 500 1.6em/1 Ubuntu, Arial, sans-serif;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #333;
+	padding: 10px 0;
+	margin-bottom: 16px;
+}
+
+#landen h3 { 
+	font-size: 1.2em;
+	padding-bottom: 10px;
+}
+
+#landen h3, #landen p { font-weight: 300; }
+
+#landen p { 
+	color: #666;
+	font-size: .9em;
+}
+
+.leesmeer {
+	display: inline-block;
+	padding: 20px 40px;
+	background: #E56A5f;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+.leesmeer:hover { 
+	background: white;
+	color: #E56A5f;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 850px) {
+    #landen { 
+        display: flex;
+        justify-content: space-between;
+    }
+	
+	#landen article { width: 30%; }
+}
+
+@media screen and (min-width: 1170px) {
+	#landen { padding: 70px 20px 40px; }
+	
+	#landen h2 { font-size: 2em; }
+}
+
+/* #wereld -------------------------------------- */
+
+#wereld {
+	background-image: url('../images/slider2.jpg');
+}
+
+/* #galerij -------------------------------------- */
+
+#galerij { padding: 40px 20px; }
+
+#galerij ul {
+	list-style-type: none;
+}
+
+#galerij h2 { 
+	font: 500 2em/1 Ubuntu, Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+}
+
+#galerij p { 
+	color: #666;
+	margin: 10px 0;
+}
+
+@media screen and (min-width: 600px) {
+    #galerij ul {
+        display: flex;
+        flex-flow: wrap row;
+        justify-content: space-between;
+    }
+
+    #galerij li { width: 48%; }
+}
+
+@media screen and (min-width: 800px) {
+	#galerij li { width: 30%; }
+    
+    #galerij li:last-of-type { margin-right: 35%; }
+}
+
+@media screen and (min-width: 1170px) {
+	#galerij li { width: 23.5%; }
+    
+    #galerij li:last-of-type { margin-right: 0; }
+	
+	#galerij p { 
+		font-size: .8em;
+		margin: 10px 0;
+	}
+}
+
+/* footer -------------------------------------- */
+
+footer { 
+	padding: 40px 20px; 
+	background: #e56a5f; 
+}
+
+footer .boxed { 
+	display: flex;
+	flex-direction: column-reverse;
+}
+	
+footer article { 
+	padding-bottom: 40px; 
+	padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer p { 
+    font-size: .8em; 
+    margin-bottom: 1em;
+}
+
+#logo-footer {
+	width: 100%;
+	font: 500 4.8em/1 Ubuntu, Arial, sans-serif;
+	line-height: .9;
+}
+
+#logo-footer a:hover { text-decoration: none; }
+
+.disclaimer, .inleiding  { font-size: 1.2em; }
+
+footer h2 { 
+	font: 500 2em/1 Ubuntu, Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+
+.social a {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border: 2px solid white;
+	border-radius: 50%;
+	padding: 13px 18px;
+	margin: 20px 8px 0 0;
+	font-size: 2em;
+}
+
+.social a:hover { 
+	text-decoration: none;
+	background: white;
+	color: #E56A5f;
+}
+
+footer .inleiding { padding-bottom: 10px; }
+
+@media screen and (min-width: 850px) {
+	footer { 
+		padding: 40px 20px; 
+	}
+
+	footer .boxed {
+		flex-direction: row;
+	} 
+	
+	footer article {
+		min-height: 140px;
+		width: 50%;
+		padding-bottom: 0;
+	}
+	
+	footer h2 { 
+        padding-top: 20px;
+        margin-bottom: 40px; 
+    }
+}
+
+@media screen and (min-width: 1170px) {
+    footer { padding: 70px 0; }
+}
