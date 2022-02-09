@@ -1,0 +1,163 @@
+/* van toepassing op élk element */
+* {
+    box-sizing: border-box;
+}
+
+/* van toepassing op élke h1 en h2 */
+h1, h2 {
+    margin: 0;
+}
+
+/* van boven naar beneden, van buiten naar binne, van algemeen naar specifiek */
+
+html {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+/* boxed */
+.boxed {
+    max-width: 80%;
+    min-width: 400px;
+    margin: auto; /* center */
+}
+
+#intro_tekst {
+    padding-bottom: 20px;
+}
+
+#intro_beeld {
+    width: 100%;
+    align-self: center;
+}
+
+/* header */
+header {
+    justify-content: space-between;
+}
+
+header nav {
+    text-align: right;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+header nav a {
+    font: 15px Arial;
+    text-decoration: none;
+    background-color: transparent;
+    color: saddlebrown;
+    padding: 10px 20px 10px 20px;
+}
+
+
+header nav a:link, a:visited {
+    color: saddlebrown;
+}
+
+header nav a:hover, a:active {
+    color: white;
+    font-style: bold;
+    background-color: saddlebrown;
+}
+
+/* main */
+main {
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+main a:link {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+main a:visited {
+    color: blue;
+}
+ 
+main a:hover {
+    text-decoration: underline
+}
+
+main .buttons a {
+    font: 15px Arial;
+    text-decoration: none;
+    background-color: saddlebrown;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    white-space:nowrap;
+}
+
+main .buttons a:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+main .buttons {
+    display: flex;
+    padding-top: 10px;
+}
+
+main .buttons a {
+    margin-right: 10px;
+} 
+
+article {
+    padding: 10px;
+}
+
+article img {
+    object-fit: contain;
+    width: 100%;
+}
+
+#articles h2 {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: dimgrey;
+    padding: 20px;
+    font-size: 10px;
+    color: white;
+    
+}
+
+.gray {
+    background-color: gainsboro;
+    padding-bottom: 40px;
+    padding: 20px;
+}
+
+@media (min-width: 700px) {
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #intro_tekst {
+        width: 60%;
+        padding-bottom: 0;
+    }
+    
+    #intro_beeld {
+        width: 40%;
+    }
+
+    article {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1000px) {
+    article {
+        width: 33.3%;
+    }
+} 
